@@ -1,0 +1,4 @@
+<form bindsubmit="_handlerSubmit">
+  <input placeholder="请输入货物种类" name="type"></input>
+  <button form-type="submit" id="add">添加</button>
+</form>

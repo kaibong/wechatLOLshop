@@ -1,0 +1,91 @@
+.image{
+  width: 100%;
+  height: 100%;
+}
+.lb{
+  height: 400rpx;
+}
+.mid {
+  margin: 5rpx;
+  height: 220rpx;
+  display: flex;
+}
+.mid .left {
+  margin: 8rpx;
+  height: 204rpx;
+  width: 70%;
+  background-size: cover;
+  background-image: url("https://7169-qibang-used-1301801315.tcb.qcloud.la/LolShop/index/images/mid/startbuy.jpg?sign=283f10ce89675e65bfbd23cbc37e0bf0&t=1590475737");
+  display: block;
+  display: flex;
+  flex-direction: column;
+  color: snow;
+  border-radius: 20rpx;
+}
+.mid .left .startbuyC{
+  margin-left: 70rpx;
+  margin-top: 62rpx;
+  font-size: 35rpx;
+}
+.mid .left .startbuyE{
+  margin-left: 74rpx;
+  font-size: 20rpx;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mid .right {
+  margin: 8rpx;
+  height: 204rpx;
+  width: 30%;
+  border-radius: 20rpx;
+  background-image: url("https://7169-qibang-used-1301801315.tcb.qcloud.la/LolShop/index/images/mid/coupon.png?sign=47ad988b33c9bc7cf0975bf960da0938&t=1590477856");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-color: aquamarine;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+.mid .right .couponC{
+  text-align: center;
+  margin-top: 130rpx;
+  font-size: 20rpx;
+}
+.mid .right .couponE{
+  text-align: center;
+  font-size: 20rpx;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bottle {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  border-radius: 30rpx;
+  padding: 30rpx;
+  margin: 0rpx 12rpx;
+}
+.bottle .bottle-top{
+  display: flex;
+  flex-direction: row;
+}
+.bottle .bottle-top .title{
+  margin-top: -18rpx;
+  font-size: 35rpx;
+  color: hotpink;
+}
+.bottle .bottle-top view{
+  font-size: 20rpx;
+  color: cadetblue;
+  position: absolute;
+  right: 35rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -8rpx;
+}
+.bottle .bottle-top view image{
+  height: 25rpx;
+  width: 25rpx;
+}

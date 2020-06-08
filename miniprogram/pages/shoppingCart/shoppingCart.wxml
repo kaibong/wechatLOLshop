@@ -1,0 +1,3 @@
+<!--miniprogram/pages/shoppingCart/shoppingCart.wxml-->
+<text>miniprogram/pages/shoppingCart/shoppingCart.wxml</text>
+<button  bindtap="yi">111</button>

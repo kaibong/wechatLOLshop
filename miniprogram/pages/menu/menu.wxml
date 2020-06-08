@@ -1,0 +1,32 @@
+<view class="container">
+  <view class="notice">
+    公告
+  </view>
+  <view class="main">
+    <scroll-view class="type_side" scroll-y="true">
+      <block wx:for="{{types}}" wx:key="id">
+        <view class="type {{select == item._id?'active':''}}" bindtap="_chooseType" id="{{item._id}}">{{item.name}}</view>
+      </block>
+    </scroll-view>
+    <scroll-view class="goods_side" scroll-y="true" scroll-into-view="{{typeView}}" bindscroll="onGoodsScroll">
+      <block wx:for="{{goods}}" wx:key="id" wx:for-item="type">
+        <view class="good_side" id="good">
+          <text class="type_title" id="{{'id'+type._id}}">{{type.name}}</text>
+          <block wx:for="{{type.allGood}}">
+            <view class="goodInformation">
+              <image src="cloud://qibang-used.7169-qibang-used-1301801315/LolShop/manager/goods/images/{{item.imageName}}"></image>
+              <view class="word">
+                <view class="name">{{item.name}}</view>
+                <view class="bottom">
+                  <view class="price">¥{{item.price}}</view>
+                  <button class="buyBtn">购买</button>
+                </view>
+              </view>
+              
+            </view>
+          </block>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+</view>

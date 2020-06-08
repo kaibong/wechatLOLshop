@@ -1,0 +1,33 @@
+<swiper class="lb" indicator-dots="true" indicator-color="white" indicator-active-color="tomato" autoplay="true" interval="5000">
+  <swiper-item>
+    <image src="{{banner1}}" class="image"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="{{banner2}}" class="image"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="{{banner3}}" class="image"></image>
+  </swiper-item>
+</swiper>
+<view class="mid">
+  <view class="left" bindtap="_toshop">
+    <text class="startbuyC">现在下单</text>
+    <text class="startbuyE">ORDER NOW</text>
+  </view>
+  <view class="right">
+    <text class="couponC">我的优惠券</text>
+    <text class="couponE">MY COUPON</text>
+  </view>
+</view>
+<view class="bottle">
+  <view class="bottle-top">
+    <text class="title">联盟快讯</text>
+      <view bindtap="reflash">
+        <text>刷新</text>
+        <image src="https://7169-qibang-used-1301801315.tcb.qcloud.la/LolShop/index/images/bottle/reflash.png?sign=4f44fddca152c5b095018147bff05365&t=1590556463"></image>
+      </view>
+  </view>
+  <block wx:for="{{news}}" wx:key="id">
+    <news newDetail="{{item}}"/>
+  </block>
+</view>

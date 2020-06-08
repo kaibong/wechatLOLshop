@@ -1,0 +1,13 @@
+.all {
+  border-bottom: 8rpx dotted yellow;
+  display: flex;
+  flex-direction: column;
+}
+.all .title {
+  font-size: 35rpx;
+}
+.all .date {
+  font-size: 25rpx;
+  text-align:right;
+  color: #a4a4a4;
+}

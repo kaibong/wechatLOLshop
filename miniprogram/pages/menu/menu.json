@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "type" : "/components/shop/type/type"
+  },
+  "navigationBarTitleText":"商城"
+}

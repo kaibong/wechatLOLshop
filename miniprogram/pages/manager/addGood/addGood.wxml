@@ -1,0 +1,55 @@
+<form bindsubmit="add">
+  <input placeholder="请输入货物名称" name="name">{{name}}</input>
+  <view class="image_view">
+    <text>上传货物图片</text>
+    <image src="{{image}}" class="image" bindtap="uploadFile"></image>
+  </view>
+  <input placeholder="请输入货物价钱" name="price">{{price}}</input>
+  <view class="section">
+    <view class="section__title">选择货物种类</view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{types}}" range-key="{{'name'}}">
+      <view class="picker" value = "{{types[index]._id}}" name="typeId">
+      当前选择：{{types[index].name}}
+      </view>
+    </picker>
+  </view>
+  <view>
+    <view class="character">
+      <text>是否加入特定属性?</text>
+      <button bindtap="addCharacter">{{add==true?'添加':'结束'}}</button>
+    </view>
+    <view class="addBig" hidden="{{show}}">
+      <input placeholder="请输入要加入的属性" name="character" class="inputCharacter" value="{{character}}" bindblur="cheakIt"></input>
+      <view bindtap="inputCharacter" class="add">
+        <image src="https://7169-qibang-used-1301801315.tcb.qcloud.la/LolShop/manager/images/add.png?sign=0c114b6b2e4f62b3a581b3bfaee41475&t=1590656721"></image>
+      </view>
+      <view bindtap="cancalCharacter" class="cancel">
+        <image src="https://7169-qibang-used-1301801315.tcb.qcloud.la/LolShop/manager/images/cancal.png?sign=e6099dba7c2597fffc5807c1cd1d4d06&t=1590656767"></image>
+      </view>
+    </view>
+    <block wx:for="{{characters}}" wx:for-item="charactersItem">
+      <view class="bigCharacters">
+        <text>{{index}}</text>
+        <button bindtap="changeChoose" id="{{index}}">{{charactersItem.choose==1?'单选':'多选'}}</button>
+        <image src="https://7169-qibang-used-1301801315.tcb.qcloud.la/LolShop/manager/images/delete.png?sign=e441dc801dd2249052e9908157b73ed8&t=1590741274" bindtap="deleteCharacter" id="{{index}}"></image>
+      </view>
+      <view class="addCharacterWay">
+        <view class="loopWay">
+          <block wx:for="{{charactersItem.way}}" wx:for-item="way" wx:for-index="wayId">
+            <view class="oneWay">
+              <text>{{way.name}}</text>
+              <text>价钱:{{way.price}}</text>
+              <image src="https://7169-qibang-used-1301801315.tcb.qcloud.la/LolShop/manager/images/deleteWay.png?sign=4c2e0262e92cb8f024fcec66cd071ecc&t=1590998030" id="{{index+','+wayId}}" bindtap="deleteWay"></image>
+            </view>
+          </block>
+        </view>
+        <view class="inputWays">
+          <image src="https://7169-qibang-used-1301801315.tcb.qcloud.la/LolShop/manager/images/addWay.png?sign=54a8b4ac81d5b04d06618b4c2ee3843f&t=1590975810"></image>
+          <input class="inputWay" placeholder="输入可选项,若需要价钱,请'|'之后加,如大型|25" bindblur="way" id="{{index}}" value="{{wayContent}}"></input>
+        </view>
+      </view>
+    </block>
+  </view>
+  <textarea placeholder="请输入货物描述" name="descript">{{descript}}</textarea>
+  <button form-type="submit">添加</button>
+</form>

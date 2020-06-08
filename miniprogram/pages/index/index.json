@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "news":"/components/news/news"
+  },
+  "navigationBarTitleText":"英雄联盟商城"
+
+}

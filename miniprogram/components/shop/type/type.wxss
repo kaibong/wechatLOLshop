@@ -1,0 +1,9 @@
+.type{
+
+  padding: 50rpx;
+  text-align: center;
+  border-bottom: 1rpx black;
+}
+.type.active{
+  background-color: white;
+}

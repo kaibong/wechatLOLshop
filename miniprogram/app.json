@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/shoppingCart/shoppingCart",
+    "pages/order/order",
+    "pages/user/user",
+    "pages/index/news/news",
+    "pages/manager/addGoodType/addGoodType",
+    "pages/manager/addGood/addGood"
+  ],
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/tabbar/index-no.png",
+        "selectedIconPath": "images/tabbar/index-sel.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "商城",
+        "iconPath": "images/tabbar/shop-no.png",
+        "selectedIconPath": "images/tabbar/shop-sel.png"
+      },
+      {
+        "pagePath": "pages/shoppingCart/shoppingCart",
+        "text": "购物车",
+        "iconPath": "images/tabbar/cart-no.png",
+        "selectedIconPath": "images/tabbar/cart-sel.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/tabbar/order-no.png",
+        "selectedIconPath": "images/tabbar/order-sel.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/tabbar/user-no.png",
+        "selectedIconPath": "images/tabbar/user-sel.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

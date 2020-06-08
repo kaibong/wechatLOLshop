@@ -1,0 +1,1553 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'wx-server-sdk@latest' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 verbose config Skipping project config: C:\Users\zhongqibang/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData wx-server-sdk@latest
+9 silly fetchNamedPackageData wx-server-sdk
+10 silly mapToRegistry name wx-server-sdk
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npm.taobao.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'wx-server-sdk',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'wx-server-sdk',
+13 silly mapToRegistry   name: 'wx-server-sdk',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npm.taobao.org/wx-server-sdk
+15 verbose request uri https://registry.npm.taobao.org/wx-server-sdk
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 09:44:02
+18 verbose request id 20361176f8b10f9b
+19 http request GET https://registry.npm.taobao.org/wx-server-sdk
+20 http 200 https://registry.npm.taobao.org/wx-server-sdk
+21 verbose headers { server: 'Tengine',
+21 verbose headers   'content-type': 'application/json; charset=utf-8',
+21 verbose headers   'content-length': '17618',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   date: 'Wed, 27 May 2020 01:44:41 GMT',
+21 verbose headers   'x-current-requests': '1',
+21 verbose headers   vary: 'accept, accept-encoding',
+21 verbose headers   etag: 'W/"f33e14b1cee29d3a9a28c59fb045d023"',
+21 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+21 verbose headers   'x-readtime': '28',
+21 verbose headers   via: 'cn462.l1, kunlun3.cn462, l2cn1851.l2, cache20.l2cn1851, izbp11dsagbzylz6yon5vtz, cache20.l2cn1851[66,200-0,H], cache11.l2cn1851[67,0], kunlun3.cn462[80,200-0,M], kunlun10.cn462[82,0]',
+21 verbose headers   'content-encoding': 'gzip',
+21 verbose headers   'ali-swift-global-savetime': '1589792697',
+21 verbose headers   age: '0',
+21 verbose headers   'x-cache': 'MISS TCP_MISS dirn:10:770998536',
+21 verbose headers   'x-swift-savetime': 'Wed, 27 May 2020 01:44:41 GMT',
+21 verbose headers   'x-swift-cachetime': '120',
+21 verbose headers   'timing-allow-origin': '*',
+21 verbose headers   eagleid: 'b739529e15905438811543080e' }
+22 silly get cb [ 200,
+22 silly get   { server: 'Tengine',
+22 silly get     'content-type': 'application/json; charset=utf-8',
+22 silly get     'content-length': '17618',
+22 silly get     connection: 'keep-alive',
+22 silly get     date: 'Wed, 27 May 2020 01:44:41 GMT',
+22 silly get     'x-current-requests': '1',
+22 silly get     vary: 'accept, accept-encoding',
+22 silly get     etag: 'W/"f33e14b1cee29d3a9a28c59fb045d023"',
+22 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+22 silly get     'x-readtime': '28',
+22 silly get     via: 'cn462.l1, kunlun3.cn462, l2cn1851.l2, cache20.l2cn1851, izbp11dsagbzylz6yon5vtz, cache20.l2cn1851[66,200-0,H], cache11.l2cn1851[67,0], kunlun3.cn462[80,200-0,M], kunlun10.cn462[82,0]',
+22 silly get     'content-encoding': 'gzip',
+22 silly get     'ali-swift-global-savetime': '1589792697',
+22 silly get     age: '0',
+22 silly get     'x-cache': 'MISS TCP_MISS dirn:10:770998536',
+22 silly get     'x-swift-savetime': 'Wed, 27 May 2020 01:44:41 GMT',
+22 silly get     'x-swift-cachetime': '120',
+22 silly get     'timing-allow-origin': '*',
+22 silly get     eagleid: 'b739529e15905438811543080e' } ]
+23 verbose get saving wx-server-sdk to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\wx-server-sdk\.cache.json
+24 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule wx-server-sdk@2.0.3 checking installable status
+38 silly cache add args [ 'wx-server-sdk@latest', null ]
+39 verbose cache add spec wx-server-sdk@latest
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'wx-server-sdk@latest',
+40 silly cache add   scope: null,
+40 silly cache add   escapedName: 'wx-server-sdk',
+40 silly cache add   name: 'wx-server-sdk',
+40 silly cache add   rawSpec: 'latest',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed wx-server-sdk@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for wx-server-sdk
+43 info addNameTag [ 'wx-server-sdk', 'latest' ]
+44 silly mapToRegistry name wx-server-sdk
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npm.taobao.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'wx-server-sdk',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'wx-server-sdk',
+47 silly mapToRegistry   name: 'wx-server-sdk',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npm.taobao.org/wx-server-sdk
+49 verbose addNameTag registry:https://registry.npm.taobao.org/wx-server-sdk not in flight; fetching
+50 verbose get https://registry.npm.taobao.org/wx-server-sdk not expired, no request
+51 silly addNameTag next cb for wx-server-sdk with tag latest
+52 silly addNamed wx-server-sdk@2.0.3
+53 verbose addNamed "2.0.3" is a plain semver version for wx-server-sdk
+54 silly mapToRegistry name wx-server-sdk
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npm.taobao.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'wx-server-sdk',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'wx-server-sdk',
+57 silly mapToRegistry   name: 'wx-server-sdk',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npm.taobao.org/wx-server-sdk
+59 verbose addRemoteTarball https://registry.npm.taobao.org/wx-server-sdk/download/wx-server-sdk-2.0.3.tgz not in flight; adding
+60 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/wx-server-sdk/download/wx-server-sdk-2.0.3.tgz',
+60 verbose addRemoteTarball   '34b574a80f37ecf53713443c9772ee8aecffcb28' ]
+61 info retry fetch attempt 1 at 09:44:03
+62 info attempt registry request try #1 at 09:44:03
+63 http fetch GET https://registry.npm.taobao.org/wx-server-sdk/download/wx-server-sdk-2.0.3.tgz
+64 http fetch 200 https://registry.npm.taobao.org/wx-server-sdk/download/wx-server-sdk-2.0.3.tgz
+65 silly fetchAndShaCheck shasum 34b574a80f37ecf53713443c9772ee8aecffcb28
+66 verbose addTmpTarball C:\Users\ZHONGQ~1\AppData\Local\Temp\npm-11612-76e58519\registry.npm.taobao.org\wx-server-sdk\download\wx-server-sdk-2.0.3.tgz not in flight; adding
+67 verbose addTmpTarball already have metadata; skipping unpack for wx-server-sdk@2.0.3
+68 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+69 silly cache afterAdd wx-server-sdk@2.0.3
+70 verbose afterAdd C:\Program Files\nodejs\node_cache\wx-server-sdk\2.0.3\package\package.json not in flight; writing
+71 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+72 verbose afterAdd C:\Program Files\nodejs\node_cache\wx-server-sdk\2.0.3\package\package.json written
+73 silly fetchNamedPackageData @cloudbase/node-sdk
+74 silly mapToRegistry name @cloudbase/node-sdk
+75 silly mapToRegistry scope (from package name) @cloudbase
+76 verbose mapToRegistry no registry URL found in name for scope @cloudbase
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npm.taobao.org/
+79 silly mapToRegistry data Result {
+79 silly mapToRegistry   raw: '@cloudbase/node-sdk',
+79 silly mapToRegistry   scope: '@cloudbase',
+79 silly mapToRegistry   escapedName: '@cloudbase%2fnode-sdk',
+79 silly mapToRegistry   name: '@cloudbase/node-sdk',
+79 silly mapToRegistry   rawSpec: '',
+79 silly mapToRegistry   spec: 'latest',
+79 silly mapToRegistry   type: 'tag' }
+80 silly mapToRegistry uri https://registry.npm.taobao.org/@cloudbase%2fnode-sdk
+81 silly fetchNamedPackageData protobufjs
+82 silly mapToRegistry name protobufjs
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npm.taobao.org/
+85 silly mapToRegistry data Result {
+85 silly mapToRegistry   raw: 'protobufjs',
+85 silly mapToRegistry   scope: null,
+85 silly mapToRegistry   escapedName: 'protobufjs',
+85 silly mapToRegistry   name: 'protobufjs',
+85 silly mapToRegistry   rawSpec: '',
+85 silly mapToRegistry   spec: 'latest',
+85 silly mapToRegistry   type: 'tag' }
+86 silly mapToRegistry uri https://registry.npm.taobao.org/protobufjs
+87 silly fetchNamedPackageData tslib
+88 silly mapToRegistry name tslib
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npm.taobao.org/
+91 silly mapToRegistry data Result {
+91 silly mapToRegistry   raw: 'tslib',
+91 silly mapToRegistry   scope: null,
+91 silly mapToRegistry   escapedName: 'tslib',
+91 silly mapToRegistry   name: 'tslib',
+91 silly mapToRegistry   rawSpec: '',
+91 silly mapToRegistry   spec: 'latest',
+91 silly mapToRegistry   type: 'tag' }
+92 silly mapToRegistry uri https://registry.npm.taobao.org/tslib
+93 verbose request uri https://registry.npm.taobao.org/@cloudbase%2fnode-sdk
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 09:44:03
+96 http request GET https://registry.npm.taobao.org/@cloudbase%2fnode-sdk
+97 verbose request uri https://registry.npm.taobao.org/protobufjs
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 09:44:03
+100 http request GET https://registry.npm.taobao.org/protobufjs
+101 verbose request uri https://registry.npm.taobao.org/tslib
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 09:44:03
+104 http request GET https://registry.npm.taobao.org/tslib
+105 http 200 https://registry.npm.taobao.org/@cloudbase%2fnode-sdk
+106 verbose headers { server: 'Tengine',
+106 verbose headers   'content-type': 'application/json; charset=utf-8',
+106 verbose headers   'content-length': '4576',
+106 verbose headers   connection: 'keep-alive',
+106 verbose headers   date: 'Wed, 27 May 2020 01:44:42 GMT',
+106 verbose headers   'x-current-requests': '1',
+106 verbose headers   vary: 'accept, accept-encoding',
+106 verbose headers   etag: 'W/"b203f70b658b966a63d5cdf8330d5e05"',
+106 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+106 verbose headers   'x-readtime': '26',
+106 verbose headers   via: 'cn462.l1, kunlun8.cn462, l2cn1851.l2, cache48.l2cn1851, izbp11dsagbzylz6yon5vvz, cache48.l2cn1851[67,200-0,H], cache2.l2cn1851[68,0], kunlun8.cn462[76,200-0,M], kunlun10.cn462[79,0]',
+106 verbose headers   'content-encoding': 'gzip',
+106 verbose headers   'ali-swift-global-savetime': '1586242620',
+106 verbose headers   age: '0',
+106 verbose headers   'x-cache': 'MISS TCP_MISS dirn:0:349334179',
+106 verbose headers   'x-swift-savetime': 'Wed, 27 May 2020 01:44:42 GMT',
+106 verbose headers   'x-swift-cachetime': '120',
+106 verbose headers   'timing-allow-origin': '*',
+106 verbose headers   eagleid: 'b739529e15905438824375744e' }
+107 silly get cb [ 200,
+107 silly get   { server: 'Tengine',
+107 silly get     'content-type': 'application/json; charset=utf-8',
+107 silly get     'content-length': '4576',
+107 silly get     connection: 'keep-alive',
+107 silly get     date: 'Wed, 27 May 2020 01:44:42 GMT',
+107 silly get     'x-current-requests': '1',
+107 silly get     vary: 'accept, accept-encoding',
+107 silly get     etag: 'W/"b203f70b658b966a63d5cdf8330d5e05"',
+107 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+107 silly get     'x-readtime': '26',
+107 silly get     via: 'cn462.l1, kunlun8.cn462, l2cn1851.l2, cache48.l2cn1851, izbp11dsagbzylz6yon5vvz, cache48.l2cn1851[67,200-0,H], cache2.l2cn1851[68,0], kunlun8.cn462[76,200-0,M], kunlun10.cn462[79,0]',
+107 silly get     'content-encoding': 'gzip',
+107 silly get     'ali-swift-global-savetime': '1586242620',
+107 silly get     age: '0',
+107 silly get     'x-cache': 'MISS TCP_MISS dirn:0:349334179',
+107 silly get     'x-swift-savetime': 'Wed, 27 May 2020 01:44:42 GMT',
+107 silly get     'x-swift-cachetime': '120',
+107 silly get     'timing-allow-origin': '*',
+107 silly get     eagleid: 'b739529e15905438824375744e' } ]
+108 verbose get saving @cloudbase/node-sdk to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\_40cloudbase_252fnode-sdk\.cache.json
+109 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+110 silly resolveWithNewModule @cloudbase/node-sdk@2.0.0-beta.6 checking installable status
+111 silly cache add args [ '@cloudbase/node-sdk@2.0.0-beta.6', null ]
+112 verbose cache add spec @cloudbase/node-sdk@2.0.0-beta.6
+113 silly cache add parsed spec Result {
+113 silly cache add   raw: '@cloudbase/node-sdk@2.0.0-beta.6',
+113 silly cache add   scope: '@cloudbase',
+113 silly cache add   escapedName: '@cloudbase%2fnode-sdk',
+113 silly cache add   name: '@cloudbase/node-sdk',
+113 silly cache add   rawSpec: '2.0.0-beta.6',
+113 silly cache add   spec: '2.0.0-beta.6',
+113 silly cache add   type: 'version' }
+114 silly addNamed @cloudbase/node-sdk@2.0.0-beta.6
+115 verbose addNamed "2.0.0-beta.6" is a plain semver version for @cloudbase/node-sdk
+116 silly mapToRegistry name @cloudbase/node-sdk
+117 silly mapToRegistry scope (from package name) @cloudbase
+118 verbose mapToRegistry no registry URL found in name for scope @cloudbase
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npm.taobao.org/
+121 silly mapToRegistry data Result {
+121 silly mapToRegistry   raw: '@cloudbase/node-sdk',
+121 silly mapToRegistry   scope: '@cloudbase',
+121 silly mapToRegistry   escapedName: '@cloudbase%2fnode-sdk',
+121 silly mapToRegistry   name: '@cloudbase/node-sdk',
+121 silly mapToRegistry   rawSpec: '',
+121 silly mapToRegistry   spec: 'latest',
+121 silly mapToRegistry   type: 'tag' }
+122 silly mapToRegistry uri https://registry.npm.taobao.org/@cloudbase%2fnode-sdk
+123 verbose addNameVersion registry:https://registry.npm.taobao.org/@cloudbase%2fnode-sdk not in flight; fetching
+124 verbose get https://registry.npm.taobao.org/@cloudbase%2fnode-sdk not expired, no request
+125 silly mapToRegistry name @cloudbase/node-sdk
+126 silly mapToRegistry scope (from package name) @cloudbase
+127 verbose mapToRegistry no registry URL found in name for scope @cloudbase
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npm.taobao.org/
+130 silly mapToRegistry data Result {
+130 silly mapToRegistry   raw: '@cloudbase/node-sdk',
+130 silly mapToRegistry   scope: '@cloudbase',
+130 silly mapToRegistry   escapedName: '@cloudbase%2fnode-sdk',
+130 silly mapToRegistry   name: '@cloudbase/node-sdk',
+130 silly mapToRegistry   rawSpec: '',
+130 silly mapToRegistry   spec: 'latest',
+130 silly mapToRegistry   type: 'tag' }
+131 silly mapToRegistry uri https://registry.npm.taobao.org/@cloudbase%2fnode-sdk
+132 verbose addRemoteTarball https://registry.npm.taobao.org/@cloudbase/node-sdk/download/@cloudbase/node-sdk-2.0.0-beta.6.tgz not in flight; adding
+133 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/@cloudbase/node-sdk/download/@cloudbase/node-sdk-2.0.0-beta.6.tgz',
+133 verbose addRemoteTarball   'ca51f302167bd23ab508eadfbc915fe33bb43910' ]
+134 info retry fetch attempt 1 at 09:44:03
+135 info attempt registry request try #1 at 09:44:03
+136 http fetch GET https://registry.npm.taobao.org/@cloudbase/node-sdk/download/@cloudbase/node-sdk-2.0.0-beta.6.tgz
+137 http 200 https://registry.npm.taobao.org/protobufjs
+138 verbose headers { server: 'Tengine',
+138 verbose headers   'content-type': 'application/json; charset=utf-8',
+138 verbose headers   'content-length': '48118',
+138 verbose headers   connection: 'keep-alive',
+138 verbose headers   date: 'Wed, 27 May 2020 01:44:42 GMT',
+138 verbose headers   'x-current-requests': '1',
+138 verbose headers   vary: 'accept, accept-encoding',
+138 verbose headers   etag: 'W/"33056fe185f51fb453ae9baf96e77746"',
+138 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+138 verbose headers   'x-readtime': '35',
+138 verbose headers   via: 'cn462.l1, kunlun7.cn462, l2cn1851.l2, cache22.l2cn1851, izbp17djxs02ot6ppjbt2jz, cache22.l2cn1851[65,304-0,H], cache29.l2cn1851[66,0], kunlun7.cn462[74,200-0,H], kunlun9.cn462[76,0]',
+138 verbose headers   'content-encoding': 'gzip',
+138 verbose headers   'ali-swift-global-savetime': '1571657629',
+138 verbose headers   age: '0',
+138 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:0:100986079',
+138 verbose headers   'x-swift-savetime': 'Wed, 27 May 2020 01:44:42 GMT',
+138 verbose headers   'x-swift-cachetime': '120',
+138 verbose headers   'timing-allow-origin': '*',
+138 verbose headers   eagleid: 'b739529d15905438824657026e' }
+139 silly get cb [ 200,
+139 silly get   { server: 'Tengine',
+139 silly get     'content-type': 'application/json; charset=utf-8',
+139 silly get     'content-length': '48118',
+139 silly get     connection: 'keep-alive',
+139 silly get     date: 'Wed, 27 May 2020 01:44:42 GMT',
+139 silly get     'x-current-requests': '1',
+139 silly get     vary: 'accept, accept-encoding',
+139 silly get     etag: 'W/"33056fe185f51fb453ae9baf96e77746"',
+139 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+139 silly get     'x-readtime': '35',
+139 silly get     via: 'cn462.l1, kunlun7.cn462, l2cn1851.l2, cache22.l2cn1851, izbp17djxs02ot6ppjbt2jz, cache22.l2cn1851[65,304-0,H], cache29.l2cn1851[66,0], kunlun7.cn462[74,200-0,H], kunlun9.cn462[76,0]',
+139 silly get     'content-encoding': 'gzip',
+139 silly get     'ali-swift-global-savetime': '1571657629',
+139 silly get     age: '0',
+139 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:0:100986079',
+139 silly get     'x-swift-savetime': 'Wed, 27 May 2020 01:44:42 GMT',
+139 silly get     'x-swift-cachetime': '120',
+139 silly get     'timing-allow-origin': '*',
+139 silly get     eagleid: 'b739529d15905438824657026e' } ]
+140 verbose get saving protobufjs to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\protobufjs\.cache.json
+141 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+142 silly resolveWithNewModule protobufjs@6.8.8 checking installable status
+143 silly cache add args [ 'protobufjs@6.8.8', null ]
+144 verbose cache add spec protobufjs@6.8.8
+145 silly cache add parsed spec Result {
+145 silly cache add   raw: 'protobufjs@6.8.8',
+145 silly cache add   scope: null,
+145 silly cache add   escapedName: 'protobufjs',
+145 silly cache add   name: 'protobufjs',
+145 silly cache add   rawSpec: '6.8.8',
+145 silly cache add   spec: '6.8.8',
+145 silly cache add   type: 'version' }
+146 silly addNamed protobufjs@6.8.8
+147 verbose addNamed "6.8.8" is a plain semver version for protobufjs
+148 silly mapToRegistry name protobufjs
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry https://registry.npm.taobao.org/
+151 silly mapToRegistry data Result {
+151 silly mapToRegistry   raw: 'protobufjs',
+151 silly mapToRegistry   scope: null,
+151 silly mapToRegistry   escapedName: 'protobufjs',
+151 silly mapToRegistry   name: 'protobufjs',
+151 silly mapToRegistry   rawSpec: '',
+151 silly mapToRegistry   spec: 'latest',
+151 silly mapToRegistry   type: 'tag' }
+152 silly mapToRegistry uri https://registry.npm.taobao.org/protobufjs
+153 verbose addNameVersion registry:https://registry.npm.taobao.org/protobufjs not in flight; fetching
+154 verbose get https://registry.npm.taobao.org/protobufjs not expired, no request
+155 silly mapToRegistry name protobufjs
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry https://registry.npm.taobao.org/
+158 silly mapToRegistry data Result {
+158 silly mapToRegistry   raw: 'protobufjs',
+158 silly mapToRegistry   scope: null,
+158 silly mapToRegistry   escapedName: 'protobufjs',
+158 silly mapToRegistry   name: 'protobufjs',
+158 silly mapToRegistry   rawSpec: '',
+158 silly mapToRegistry   spec: 'latest',
+158 silly mapToRegistry   type: 'tag' }
+159 silly mapToRegistry uri https://registry.npm.taobao.org/protobufjs
+160 verbose addRemoteTarball https://registry.npm.taobao.org/protobufjs/download/protobufjs-6.8.8.tgz not in flight; adding
+161 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/protobufjs/download/protobufjs-6.8.8.tgz',
+161 verbose addRemoteTarball   'c8b4f1282fd7a90e6f5b109ed11c84af82908e7c' ]
+162 info retry fetch attempt 1 at 09:44:04
+163 info attempt registry request try #1 at 09:44:04
+164 http fetch GET https://registry.npm.taobao.org/protobufjs/download/protobufjs-6.8.8.tgz
+165 http fetch 200 https://registry.npm.taobao.org/@cloudbase/node-sdk/download/@cloudbase/node-sdk-2.0.0-beta.6.tgz
+166 silly fetchAndShaCheck shasum ca51f302167bd23ab508eadfbc915fe33bb43910
+167 verbose addTmpTarball C:\Users\ZHONGQ~1\AppData\Local\Temp\npm-11612-76e58519\registry.npm.taobao.org\_40cloudbase\node-sdk\download\_40cloudbase\node-sdk-2.0.0-beta.6.tgz not in flight; adding
+168 verbose addTmpTarball already have metadata; skipping unpack for @cloudbase/node-sdk@2.0.0-beta.6
+169 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+170 silly cache afterAdd @cloudbase/node-sdk@2.0.0-beta.6
+171 verbose afterAdd C:\Program Files\nodejs\node_cache\@cloudbase\node-sdk\2.0.0-beta.6\package\package.json not in flight; writing
+172 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+173 verbose afterAdd C:\Program Files\nodejs\node_cache\@cloudbase\node-sdk\2.0.0-beta.6\package\package.json written
+174 http fetch 200 https://registry.npm.taobao.org/protobufjs/download/protobufjs-6.8.8.tgz
+175 silly fetchAndShaCheck shasum c8b4f1282fd7a90e6f5b109ed11c84af82908e7c
+176 verbose addTmpTarball C:\Users\ZHONGQ~1\AppData\Local\Temp\npm-11612-76e58519\registry.npm.taobao.org\protobufjs\download\protobufjs-6.8.8.tgz not in flight; adding
+177 verbose addTmpTarball already have metadata; skipping unpack for protobufjs@6.8.8
+178 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+179 silly cache afterAdd protobufjs@6.8.8
+180 verbose afterAdd C:\Program Files\nodejs\node_cache\protobufjs\6.8.8\package\package.json not in flight; writing
+181 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+182 verbose afterAdd C:\Program Files\nodejs\node_cache\protobufjs\6.8.8\package\package.json written
+183 http 200 https://registry.npm.taobao.org/tslib
+184 verbose headers { server: 'Tengine',
+184 verbose headers   'content-type': 'application/json; charset=utf-8',
+184 verbose headers   'content-length': '7235',
+184 verbose headers   connection: 'keep-alive',
+184 verbose headers   date: 'Wed, 27 May 2020 01:44:29 GMT',
+184 verbose headers   'x-current-requests': '1',
+184 verbose headers   vary: 'accept, accept-encoding',
+184 verbose headers   etag: 'W/"d7c8bb41c52b9be067b995b3bfd99258"',
+184 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+184 verbose headers   'x-readtime': '16',
+184 verbose headers   via: 'cn462.l1, kunlun5.cn462, l2cn1851.l2, cache40.l2cn1851, izbp11dsagbzylz6yon5vtz, cache40.l2cn1851[50,304-0,H], cache59.l2cn1851[51,0], kunlun5.cn462[0,200-0,H], kunlun2.cn462[44,0]',
+184 verbose headers   'content-encoding': 'gzip',
+184 verbose headers   'ali-swift-global-savetime': '1589412037',
+184 verbose headers   age: '14',
+184 verbose headers   'x-cache': 'HIT TCP_MEM_HIT dirn:10:664004769',
+184 verbose headers   'x-swift-savetime': 'Wed, 27 May 2020 01:44:29 GMT',
+184 verbose headers   'x-swift-cachetime': '120',
+184 verbose headers   'timing-allow-origin': '*',
+184 verbose headers   eagleid: 'b739529615905438831026586e' }
+185 silly get cb [ 200,
+185 silly get   { server: 'Tengine',
+185 silly get     'content-type': 'application/json; charset=utf-8',
+185 silly get     'content-length': '7235',
+185 silly get     connection: 'keep-alive',
+185 silly get     date: 'Wed, 27 May 2020 01:44:29 GMT',
+185 silly get     'x-current-requests': '1',
+185 silly get     vary: 'accept, accept-encoding',
+185 silly get     etag: 'W/"d7c8bb41c52b9be067b995b3bfd99258"',
+185 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+185 silly get     'x-readtime': '16',
+185 silly get     via: 'cn462.l1, kunlun5.cn462, l2cn1851.l2, cache40.l2cn1851, izbp11dsagbzylz6yon5vtz, cache40.l2cn1851[50,304-0,H], cache59.l2cn1851[51,0], kunlun5.cn462[0,200-0,H], kunlun2.cn462[44,0]',
+185 silly get     'content-encoding': 'gzip',
+185 silly get     'ali-swift-global-savetime': '1589412037',
+185 silly get     age: '14',
+185 silly get     'x-cache': 'HIT TCP_MEM_HIT dirn:10:664004769',
+185 silly get     'x-swift-savetime': 'Wed, 27 May 2020 01:44:29 GMT',
+185 silly get     'x-swift-cachetime': '120',
+185 silly get     'timing-allow-origin': '*',
+185 silly get     eagleid: 'b739529615905438831026586e' } ]
+186 verbose get saving tslib to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\tslib\.cache.json
+187 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+188 silly resolveWithNewModule tslib@1.13.0 checking installable status
+189 silly cache add args [ 'tslib@^1.9.3', null ]
+190 verbose cache add spec tslib@^1.9.3
+191 silly cache add parsed spec Result {
+191 silly cache add   raw: 'tslib@^1.9.3',
+191 silly cache add   scope: null,
+191 silly cache add   escapedName: 'tslib',
+191 silly cache add   name: 'tslib',
+191 silly cache add   rawSpec: '^1.9.3',
+191 silly cache add   spec: '>=1.9.3 <2.0.0',
+191 silly cache add   type: 'range' }
+192 silly addNamed tslib@>=1.9.3 <2.0.0
+193 verbose addNamed ">=1.9.3 <2.0.0" is a valid semver range for tslib
+194 silly addNameRange { name: 'tslib', range: '>=1.9.3 <2.0.0', hasData: false }
+195 silly mapToRegistry name tslib
+196 silly mapToRegistry using default registry
+197 silly mapToRegistry registry https://registry.npm.taobao.org/
+198 silly mapToRegistry data Result {
+198 silly mapToRegistry   raw: 'tslib',
+198 silly mapToRegistry   scope: null,
+198 silly mapToRegistry   escapedName: 'tslib',
+198 silly mapToRegistry   name: 'tslib',
+198 silly mapToRegistry   rawSpec: '',
+198 silly mapToRegistry   spec: 'latest',
+198 silly mapToRegistry   type: 'tag' }
+199 silly mapToRegistry uri https://registry.npm.taobao.org/tslib
+200 verbose addNameRange registry:https://registry.npm.taobao.org/tslib not in flight; fetching
+201 verbose get https://registry.npm.taobao.org/tslib not expired, no request
+202 silly addNameRange number 2 { name: 'tslib', range: '>=1.9.3 <2.0.0', hasData: true }
+203 silly addNameRange versions [ 'tslib',
+203 silly addNameRange   [ '2.0.0',
+203 silly addNameRange     '1.13.0',
+203 silly addNameRange     '1.12.0',
+203 silly addNameRange     '1.11.2',
+203 silly addNameRange     '1.11.1',
+203 silly addNameRange     '1.11.0',
+203 silly addNameRange     '1.10.0',
+203 silly addNameRange     '1.9.3',
+203 silly addNameRange     '1.9.2',
+203 silly addNameRange     '1.9.1',
+203 silly addNameRange     '1.9.0',
+203 silly addNameRange     '1.8.1',
+203 silly addNameRange     '1.8.0',
+203 silly addNameRange     '1.7.1',
+203 silly addNameRange     '1.7.0',
+203 silly addNameRange     '1.6.1',
+203 silly addNameRange     '1.6.0',
+203 silly addNameRange     '1.5.0',
+203 silly addNameRange     '1.4.0',
+203 silly addNameRange     '1.3.0',
+203 silly addNameRange     '1.2.0',
+203 silly addNameRange     '1.1.0',
+203 silly addNameRange     '1.0.0',
+203 silly addNameRange     '0.0.1-security' ] ]
+204 silly addNamed tslib@1.13.0
+205 verbose addNamed "1.13.0" is a plain semver version for tslib
+206 silly mapToRegistry name tslib
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npm.taobao.org/
+209 silly mapToRegistry data Result {
+209 silly mapToRegistry   raw: 'tslib',
+209 silly mapToRegistry   scope: null,
+209 silly mapToRegistry   escapedName: 'tslib',
+209 silly mapToRegistry   name: 'tslib',
+209 silly mapToRegistry   rawSpec: '',
+209 silly mapToRegistry   spec: 'latest',
+209 silly mapToRegistry   type: 'tag' }
+210 silly mapToRegistry uri https://registry.npm.taobao.org/tslib
+211 verbose addRemoteTarball https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz not in flight; adding
+212 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz',
+212 verbose addRemoteTarball   'c881e13cc7015894ed914862d276436fa9a47043' ]
+213 info retry fetch attempt 1 at 09:44:04
+214 info attempt registry request try #1 at 09:44:04
+215 http fetch GET https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz
+216 http fetch 200 https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz
+217 silly fetchAndShaCheck shasum c881e13cc7015894ed914862d276436fa9a47043
+218 verbose addTmpTarball C:\Users\ZHONGQ~1\AppData\Local\Temp\npm-11612-76e58519\registry.npm.taobao.org\tslib\download\tslib-1.13.0.tgz not in flight; adding
+219 verbose addTmpTarball already have metadata; skipping unpack for tslib@1.13.0
+220 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+221 silly cache afterAdd tslib@1.13.0
+222 verbose afterAdd C:\Program Files\nodejs\node_cache\tslib\1.13.0\package\package.json not in flight; writing
+223 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+224 verbose afterAdd C:\Program Files\nodejs\node_cache\tslib\1.13.0\package\package.json written
+225 silly fetchNamedPackageData @cloudbase/database
+226 silly mapToRegistry name @cloudbase/database
+227 silly mapToRegistry scope (from package name) @cloudbase
+228 verbose mapToRegistry no registry URL found in name for scope @cloudbase
+229 silly mapToRegistry using default registry
+230 silly mapToRegistry registry https://registry.npm.taobao.org/
+231 silly mapToRegistry data Result {
+231 silly mapToRegistry   raw: '@cloudbase/database',
+231 silly mapToRegistry   scope: '@cloudbase',
+231 silly mapToRegistry   escapedName: '@cloudbase%2fdatabase',
+231 silly mapToRegistry   name: '@cloudbase/database',
+231 silly mapToRegistry   rawSpec: '',
+231 silly mapToRegistry   spec: 'latest',
+231 silly mapToRegistry   type: 'tag' }
+232 silly mapToRegistry uri https://registry.npm.taobao.org/@cloudbase%2fdatabase
+233 silly fetchNamedPackageData @cloudbase/signature-nodejs
+234 silly mapToRegistry name @cloudbase/signature-nodejs
+235 silly mapToRegistry scope (from package name) @cloudbase
+236 verbose mapToRegistry no registry URL found in name for scope @cloudbase
+237 silly mapToRegistry using default registry
+238 silly mapToRegistry registry https://registry.npm.taobao.org/
+239 silly mapToRegistry data Result {
+239 silly mapToRegistry   raw: '@cloudbase/signature-nodejs',
+239 silly mapToRegistry   scope: '@cloudbase',
+239 silly mapToRegistry   escapedName: '@cloudbase%2fsignature-nodejs',
+239 silly mapToRegistry   name: '@cloudbase/signature-nodejs',
+239 silly mapToRegistry   rawSpec: '',
+239 silly mapToRegistry   spec: 'latest',
+239 silly mapToRegistry   type: 'tag' }
+240 silly mapToRegistry uri https://registry.npm.taobao.org/@cloudbase%2fsignature-nodejs
+241 silly fetchNamedPackageData is-regex
+242 silly mapToRegistry name is-regex
+243 silly mapToRegistry using default registry
+244 silly mapToRegistry registry https://registry.npm.taobao.org/
+245 silly mapToRegistry data Result {
+245 silly mapToRegistry   raw: 'is-regex',
+245 silly mapToRegistry   scope: null,
+245 silly mapToRegistry   escapedName: 'is-regex',
+245 silly mapToRegistry   name: 'is-regex',
+245 silly mapToRegistry   rawSpec: '',
+245 silly mapToRegistry   spec: 'latest',
+245 silly mapToRegistry   type: 'tag' }
+246 silly mapToRegistry uri https://registry.npm.taobao.org/is-regex
+247 silly fetchNamedPackageData jsonwebtoken
+248 silly mapToRegistry name jsonwebtoken
+249 silly mapToRegistry using default registry
+250 silly mapToRegistry registry https://registry.npm.taobao.org/
+251 silly mapToRegistry data Result {
+251 silly mapToRegistry   raw: 'jsonwebtoken',
+251 silly mapToRegistry   scope: null,
+251 silly mapToRegistry   escapedName: 'jsonwebtoken',
+251 silly mapToRegistry   name: 'jsonwebtoken',
+251 silly mapToRegistry   rawSpec: '',
+251 silly mapToRegistry   spec: 'latest',
+251 silly mapToRegistry   type: 'tag' }
+252 silly mapToRegistry uri https://registry.npm.taobao.org/jsonwebtoken
+253 silly fetchNamedPackageData lodash.merge
+254 silly mapToRegistry name lodash.merge
+255 silly mapToRegistry using default registry
+256 silly mapToRegistry registry https://registry.npm.taobao.org/
+257 silly mapToRegistry data Result {
+257 silly mapToRegistry   raw: 'lodash.merge',
+257 silly mapToRegistry   scope: null,
+257 silly mapToRegistry   escapedName: 'lodash.merge',
+257 silly mapToRegistry   name: 'lodash.merge',
+257 silly mapToRegistry   rawSpec: '',
+257 silly mapToRegistry   spec: 'latest',
+257 silly mapToRegistry   type: 'tag' }
+258 silly mapToRegistry uri https://registry.npm.taobao.org/lodash.merge
+259 silly fetchNamedPackageData request-promise
+260 silly mapToRegistry name request-promise
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry https://registry.npm.taobao.org/
+263 silly mapToRegistry data Result {
+263 silly mapToRegistry   raw: 'request-promise',
+263 silly mapToRegistry   scope: null,
+263 silly mapToRegistry   escapedName: 'request-promise',
+263 silly mapToRegistry   name: 'request-promise',
+263 silly mapToRegistry   rawSpec: '',
+263 silly mapToRegistry   spec: 'latest',
+263 silly mapToRegistry   type: 'tag' }
+264 silly mapToRegistry uri https://registry.npm.taobao.org/request-promise
+265 silly fetchNamedPackageData tcb-admin-node
+266 silly mapToRegistry name tcb-admin-node
+267 silly mapToRegistry using default registry
+268 silly mapToRegistry registry https://registry.npm.taobao.org/
+269 silly mapToRegistry data Result {
+269 silly mapToRegistry   raw: 'tcb-admin-node',
+269 silly mapToRegistry   scope: null,
+269 silly mapToRegistry   escapedName: 'tcb-admin-node',
+269 silly mapToRegistry   name: 'tcb-admin-node',
+269 silly mapToRegistry   rawSpec: '',
+269 silly mapToRegistry   spec: 'latest',
+269 silly mapToRegistry   type: 'tag' }
+270 silly mapToRegistry uri https://registry.npm.taobao.org/tcb-admin-node
+271 silly fetchNamedPackageData xml2js
+272 silly mapToRegistry name xml2js
+273 silly mapToRegistry using default registry
+274 silly mapToRegistry registry https://registry.npm.taobao.org/
+275 silly mapToRegistry data Result {
+275 silly mapToRegistry   raw: 'xml2js',
+275 silly mapToRegistry   scope: null,
+275 silly mapToRegistry   escapedName: 'xml2js',
+275 silly mapToRegistry   name: 'xml2js',
+275 silly mapToRegistry   rawSpec: '',
+275 silly mapToRegistry   spec: 'latest',
+275 silly mapToRegistry   type: 'tag' }
+276 silly mapToRegistry uri https://registry.npm.taobao.org/xml2js
+277 verbose request uri https://registry.npm.taobao.org/@cloudbase%2fdatabase
+278 verbose request no auth needed
+279 info attempt registry request try #1 at 09:44:04
+280 http request GET https://registry.npm.taobao.org/@cloudbase%2fdatabase
+281 verbose request uri https://registry.npm.taobao.org/@cloudbase%2fsignature-nodejs
+282 verbose request no auth needed
+283 info attempt registry request try #1 at 09:44:04
+284 http request GET https://registry.npm.taobao.org/@cloudbase%2fsignature-nodejs
+285 verbose request uri https://registry.npm.taobao.org/jsonwebtoken
+286 verbose request no auth needed
+287 info attempt registry request try #1 at 09:44:04
+288 http request GET https://registry.npm.taobao.org/jsonwebtoken
+289 verbose request uri https://registry.npm.taobao.org/lodash.merge
+290 verbose request no auth needed
+291 info attempt registry request try #1 at 09:44:04
+292 http request GET https://registry.npm.taobao.org/lodash.merge
+293 verbose request uri https://registry.npm.taobao.org/tcb-admin-node
+294 verbose request no auth needed
+295 info attempt registry request try #1 at 09:44:04
+296 http request GET https://registry.npm.taobao.org/tcb-admin-node
+297 verbose request uri https://registry.npm.taobao.org/xml2js
+298 verbose request no auth needed
+299 info attempt registry request try #1 at 09:44:04
+300 http request GET https://registry.npm.taobao.org/xml2js
+301 verbose request uri https://registry.npm.taobao.org/is-regex
+302 verbose request no auth needed
+303 info attempt registry request try #1 at 09:44:04
+304 verbose etag W/"11dc5c89b83099108d2562a96024d7a0"
+305 http request GET https://registry.npm.taobao.org/is-regex
+306 verbose request uri https://registry.npm.taobao.org/request-promise
+307 verbose request no auth needed
+308 info attempt registry request try #1 at 09:44:04
+309 verbose etag W/"e09f6d950688a5f4ade5cb17928dfc78"
+310 http request GET https://registry.npm.taobao.org/request-promise
+311 http 200 https://registry.npm.taobao.org/@cloudbase%2fsignature-nodejs
+312 verbose headers { server: 'Tengine',
+312 verbose headers   'content-type': 'application/json; charset=utf-8',
+312 verbose headers   'content-length': '1105',
+312 verbose headers   connection: 'keep-alive',
+312 verbose headers   date: 'Wed, 27 May 2020 01:44:43 GMT',
+312 verbose headers   'x-current-requests': '1',
+312 verbose headers   vary: 'accept, accept-encoding',
+312 verbose headers   etag: 'W/"a4576cae7044a0bdcf0933b45eb9fd1e"',
+312 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+312 verbose headers   'x-readtime': '13',
+312 verbose headers   via: 'cn462.l1, kunlun2.cn462, l2cn1851.l2, cache18.l2cn1851, izbp11dsagbzylz6yon5vvz, cache18.l2cn1851[42,200-0,H], cache12.l2cn1851[58,0], kunlun2.cn462[86,200-0,M], kunlun2.cn462[93,0]',
+312 verbose headers   'content-encoding': 'gzip',
+312 verbose headers   'ali-swift-global-savetime': '1590371830',
+312 verbose headers   age: '0',
+312 verbose headers   'x-cache': 'MISS TCP_MISS dirn:0:303541617',
+312 verbose headers   'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+312 verbose headers   'x-swift-cachetime': '120',
+312 verbose headers   'timing-allow-origin': '*',
+312 verbose headers   eagleid: 'b739529615905438833597267e' }
+313 silly get cb [ 200,
+313 silly get   { server: 'Tengine',
+313 silly get     'content-type': 'application/json; charset=utf-8',
+313 silly get     'content-length': '1105',
+313 silly get     connection: 'keep-alive',
+313 silly get     date: 'Wed, 27 May 2020 01:44:43 GMT',
+313 silly get     'x-current-requests': '1',
+313 silly get     vary: 'accept, accept-encoding',
+313 silly get     etag: 'W/"a4576cae7044a0bdcf0933b45eb9fd1e"',
+313 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+313 silly get     'x-readtime': '13',
+313 silly get     via: 'cn462.l1, kunlun2.cn462, l2cn1851.l2, cache18.l2cn1851, izbp11dsagbzylz6yon5vvz, cache18.l2cn1851[42,200-0,H], cache12.l2cn1851[58,0], kunlun2.cn462[86,200-0,M], kunlun2.cn462[93,0]',
+313 silly get     'content-encoding': 'gzip',
+313 silly get     'ali-swift-global-savetime': '1590371830',
+313 silly get     age: '0',
+313 silly get     'x-cache': 'MISS TCP_MISS dirn:0:303541617',
+313 silly get     'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+313 silly get     'x-swift-cachetime': '120',
+313 silly get     'timing-allow-origin': '*',
+313 silly get     eagleid: 'b739529615905438833597267e' } ]
+314 verbose get saving @cloudbase/signature-nodejs to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\_40cloudbase_252fsignature-nodejs\.cache.json
+315 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+316 silly resolveWithNewModule @cloudbase/signature-nodejs@1.0.0-beta.0 checking installable status
+317 silly cache add args [ '@cloudbase/signature-nodejs@1.0.0-beta.0', null ]
+318 verbose cache add spec @cloudbase/signature-nodejs@1.0.0-beta.0
+319 silly cache add parsed spec Result {
+319 silly cache add   raw: '@cloudbase/signature-nodejs@1.0.0-beta.0',
+319 silly cache add   scope: '@cloudbase',
+319 silly cache add   escapedName: '@cloudbase%2fsignature-nodejs',
+319 silly cache add   name: '@cloudbase/signature-nodejs',
+319 silly cache add   rawSpec: '1.0.0-beta.0',
+319 silly cache add   spec: '1.0.0-beta.0',
+319 silly cache add   type: 'version' }
+320 silly addNamed @cloudbase/signature-nodejs@1.0.0-beta.0
+321 verbose addNamed "1.0.0-beta.0" is a plain semver version for @cloudbase/signature-nodejs
+322 silly mapToRegistry name @cloudbase/signature-nodejs
+323 silly mapToRegistry scope (from package name) @cloudbase
+324 verbose mapToRegistry no registry URL found in name for scope @cloudbase
+325 silly mapToRegistry using default registry
+326 silly mapToRegistry registry https://registry.npm.taobao.org/
+327 silly mapToRegistry data Result {
+327 silly mapToRegistry   raw: '@cloudbase/signature-nodejs',
+327 silly mapToRegistry   scope: '@cloudbase',
+327 silly mapToRegistry   escapedName: '@cloudbase%2fsignature-nodejs',
+327 silly mapToRegistry   name: '@cloudbase/signature-nodejs',
+327 silly mapToRegistry   rawSpec: '',
+327 silly mapToRegistry   spec: 'latest',
+327 silly mapToRegistry   type: 'tag' }
+328 silly mapToRegistry uri https://registry.npm.taobao.org/@cloudbase%2fsignature-nodejs
+329 verbose addNameVersion registry:https://registry.npm.taobao.org/@cloudbase%2fsignature-nodejs not in flight; fetching
+330 verbose get https://registry.npm.taobao.org/@cloudbase%2fsignature-nodejs not expired, no request
+331 silly mapToRegistry name @cloudbase/signature-nodejs
+332 silly mapToRegistry scope (from package name) @cloudbase
+333 verbose mapToRegistry no registry URL found in name for scope @cloudbase
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry https://registry.npm.taobao.org/
+336 silly mapToRegistry data Result {
+336 silly mapToRegistry   raw: '@cloudbase/signature-nodejs',
+336 silly mapToRegistry   scope: '@cloudbase',
+336 silly mapToRegistry   escapedName: '@cloudbase%2fsignature-nodejs',
+336 silly mapToRegistry   name: '@cloudbase/signature-nodejs',
+336 silly mapToRegistry   rawSpec: '',
+336 silly mapToRegistry   spec: 'latest',
+336 silly mapToRegistry   type: 'tag' }
+337 silly mapToRegistry uri https://registry.npm.taobao.org/@cloudbase%2fsignature-nodejs
+338 verbose addRemoteTarball https://registry.npm.taobao.org/@cloudbase/signature-nodejs/download/@cloudbase/signature-nodejs-1.0.0-beta.0.tgz not in flight; adding
+339 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/@cloudbase/signature-nodejs/download/@cloudbase/signature-nodejs-1.0.0-beta.0.tgz',
+339 verbose addRemoteTarball   '231d05f99cad01bc464f68239557c6a5b9a7e7a3' ]
+340 info retry fetch attempt 1 at 09:44:04
+341 info attempt registry request try #1 at 09:44:04
+342 http fetch GET https://registry.npm.taobao.org/@cloudbase/signature-nodejs/download/@cloudbase/signature-nodejs-1.0.0-beta.0.tgz
+343 http 200 https://registry.npm.taobao.org/jsonwebtoken
+344 verbose headers { server: 'Tengine',
+344 verbose headers   'content-type': 'application/json; charset=utf-8',
+344 verbose headers   'content-length': '23051',
+344 verbose headers   connection: 'keep-alive',
+344 verbose headers   date: 'Wed, 27 May 2020 01:44:43 GMT',
+344 verbose headers   'x-current-requests': '1',
+344 verbose headers   vary: 'accept, accept-encoding',
+344 verbose headers   etag: 'W/"ec5ad61b505705d8795fc1e24d2e8302"',
+344 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+344 verbose headers   'x-readtime': '31',
+344 verbose headers   via: 'cn462.l1, kunlun8.cn462, l2cn1851.l2, cache37.l2cn1851, izbp11dsagbzylz6yon5vvz, cache37.l2cn1851[65,304-0,H], cache32.l2cn1851[66,0], kunlun8.cn462[76,200-0,H], kunlun10.cn462[78,0]',
+344 verbose headers   'x-swift-error': 'forward peer connect close',
+344 verbose headers   'content-encoding': 'gzip',
+344 verbose headers   'ali-swift-global-savetime': '1571683850',
+344 verbose headers   age: '0',
+344 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:0:596097951',
+344 verbose headers   'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+344 verbose headers   'x-swift-cachetime': '120',
+344 verbose headers   'timing-allow-origin': '*',
+344 verbose headers   eagleid: 'b739529e15905438834037866e' }
+345 silly get cb [ 200,
+345 silly get   { server: 'Tengine',
+345 silly get     'content-type': 'application/json; charset=utf-8',
+345 silly get     'content-length': '23051',
+345 silly get     connection: 'keep-alive',
+345 silly get     date: 'Wed, 27 May 2020 01:44:43 GMT',
+345 silly get     'x-current-requests': '1',
+345 silly get     vary: 'accept, accept-encoding',
+345 silly get     etag: 'W/"ec5ad61b505705d8795fc1e24d2e8302"',
+345 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+345 silly get     'x-readtime': '31',
+345 silly get     via: 'cn462.l1, kunlun8.cn462, l2cn1851.l2, cache37.l2cn1851, izbp11dsagbzylz6yon5vvz, cache37.l2cn1851[65,304-0,H], cache32.l2cn1851[66,0], kunlun8.cn462[76,200-0,H], kunlun10.cn462[78,0]',
+345 silly get     'x-swift-error': 'forward peer connect close',
+345 silly get     'content-encoding': 'gzip',
+345 silly get     'ali-swift-global-savetime': '1571683850',
+345 silly get     age: '0',
+345 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:0:596097951',
+345 silly get     'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+345 silly get     'x-swift-cachetime': '120',
+345 silly get     'timing-allow-origin': '*',
+345 silly get     eagleid: 'b739529e15905438834037866e' } ]
+346 verbose get saving jsonwebtoken to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\jsonwebtoken\.cache.json
+347 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+348 silly resolveWithNewModule jsonwebtoken@8.5.1 checking installable status
+349 silly cache add args [ 'jsonwebtoken@^8.5.1', null ]
+350 verbose cache add spec jsonwebtoken@^8.5.1
+351 silly cache add parsed spec Result {
+351 silly cache add   raw: 'jsonwebtoken@^8.5.1',
+351 silly cache add   scope: null,
+351 silly cache add   escapedName: 'jsonwebtoken',
+351 silly cache add   name: 'jsonwebtoken',
+351 silly cache add   rawSpec: '^8.5.1',
+351 silly cache add   spec: '>=8.5.1 <9.0.0',
+351 silly cache add   type: 'range' }
+352 silly addNamed jsonwebtoken@>=8.5.1 <9.0.0
+353 verbose addNamed ">=8.5.1 <9.0.0" is a valid semver range for jsonwebtoken
+354 silly addNameRange { name: 'jsonwebtoken', range: '>=8.5.1 <9.0.0', hasData: false }
+355 silly mapToRegistry name jsonwebtoken
+356 silly mapToRegistry using default registry
+357 silly mapToRegistry registry https://registry.npm.taobao.org/
+358 silly mapToRegistry data Result {
+358 silly mapToRegistry   raw: 'jsonwebtoken',
+358 silly mapToRegistry   scope: null,
+358 silly mapToRegistry   escapedName: 'jsonwebtoken',
+358 silly mapToRegistry   name: 'jsonwebtoken',
+358 silly mapToRegistry   rawSpec: '',
+358 silly mapToRegistry   spec: 'latest',
+358 silly mapToRegistry   type: 'tag' }
+359 silly mapToRegistry uri https://registry.npm.taobao.org/jsonwebtoken
+360 verbose addNameRange registry:https://registry.npm.taobao.org/jsonwebtoken not in flight; fetching
+361 verbose get https://registry.npm.taobao.org/jsonwebtoken not expired, no request
+362 silly addNameRange number 2 { name: 'jsonwebtoken', range: '>=8.5.1 <9.0.0', hasData: true }
+363 silly addNameRange versions [ 'jsonwebtoken',
+363 silly addNameRange   [ '8.5.1',
+363 silly addNameRange     '8.5.0',
+363 silly addNameRange     '8.4.0',
+363 silly addNameRange     '8.3.0',
+363 silly addNameRange     '8.2.2',
+363 silly addNameRange     '8.2.1',
+363 silly addNameRange     '8.2.0',
+363 silly addNameRange     '8.1.1',
+363 silly addNameRange     '8.1.0',
+363 silly addNameRange     '8.0.1',
+363 silly addNameRange     '8.0.0',
+363 silly addNameRange     '7.4.3',
+363 silly addNameRange     '7.4.2',
+363 silly addNameRange     '7.4.1',
+363 silly addNameRange     '7.4.0',
+363 silly addNameRange     '7.3.0',
+363 silly addNameRange     '7.2.1',
+363 silly addNameRange     '7.2.0',
+363 silly addNameRange     '7.1.10',
+363 silly addNameRange     '7.1.9',
+363 silly addNameRange     '7.1.8',
+363 silly addNameRange     '7.1.7',
+363 silly addNameRange     '7.1.6',
+363 silly addNameRange     '7.1.5',
+363 silly addNameRange     '7.1.3',
+363 silly addNameRange     '7.1.1',
+363 silly addNameRange     '7.1.0',
+363 silly addNameRange     '7.0.1',
+363 silly addNameRange     '7.0.0',
+363 silly addNameRange     '6.2.0',
+363 silly addNameRange     '6.1.2',
+363 silly addNameRange     '6.1.1',
+363 silly addNameRange     '6.1.0',
+363 silly addNameRange     '6.0.1',
+363 silly addNameRange     '6.0.0',
+363 silly addNameRange     '5.7.0',
+363 silly addNameRange     '5.6.2',
+363 silly addNameRange     '5.6.0',
+363 silly addNameRange     '5.5.4',
+363 silly addNameRange     '5.5.3',
+363 silly addNameRange     '5.5.2',
+363 silly addNameRange     '5.5.1',
+363 silly addNameRange     '5.5.0',
+363 silly addNameRange     '5.4.1',
+363 silly addNameRange     '5.4.0',
+363 silly addNameRange     '5.3.1',
+363 silly addNameRange     '5.2.0',
+363 silly addNameRange     '5.1.0',
+363 silly addNameRange     '5.0.5',
+363 silly addNameRange     '5.0.4',
+363 silly addNameRange     '5.0.3',
+363 silly addNameRange     '5.0.2',
+363 silly addNameRange     '5.0.1',
+363 silly addNameRange     '5.0.0',
+363 silly addNameRange     '4.2.2',
+363 silly addNameRange     '4.2.1',
+363 silly addNameRange     '4.2.0',
+363 silly addNameRange     '4.1.0',
+363 silly addNameRange     '4.0.0',
+363 silly addNameRange     '3.2.2',
+363 silly addNameRange     '3.2.1',
+363 silly addNameRange     '3.2.0',
+363 silly addNameRange     '3.1.1',
+363 silly addNameRange     '3.1.0',
+363 silly addNameRange     '3.0.0',
+363 silly addNameRange     '2.0.0',
+363 silly addNameRange     '1.3.0',
+363 silly addNameRange     '1.2.0',
+363 silly addNameRange     '1.1.2',
+363 silly addNameRange     '1.1.1',
+363 silly addNameRange     '1.1.0',
+363 silly addNameRange     '1.0.2',
+363 silly addNameRange     '1.0.0',
+363 silly addNameRange     '0.4.1',
+363 silly addNameRange     '0.4.0',
+363 silly addNameRange     '0.3.0',
+363 silly addNameRange     '0.2.0',
+363 silly addNameRange     '0.1.0' ] ]
+364 silly addNamed jsonwebtoken@8.5.1
+365 verbose addNamed "8.5.1" is a plain semver version for jsonwebtoken
+366 silly mapToRegistry name jsonwebtoken
+367 silly mapToRegistry using default registry
+368 silly mapToRegistry registry https://registry.npm.taobao.org/
+369 silly mapToRegistry data Result {
+369 silly mapToRegistry   raw: 'jsonwebtoken',
+369 silly mapToRegistry   scope: null,
+369 silly mapToRegistry   escapedName: 'jsonwebtoken',
+369 silly mapToRegistry   name: 'jsonwebtoken',
+369 silly mapToRegistry   rawSpec: '',
+369 silly mapToRegistry   spec: 'latest',
+369 silly mapToRegistry   type: 'tag' }
+370 silly mapToRegistry uri https://registry.npm.taobao.org/jsonwebtoken
+371 verbose addRemoteTarball https://registry.npm.taobao.org/jsonwebtoken/download/jsonwebtoken-8.5.1.tgz not in flight; adding
+372 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/jsonwebtoken/download/jsonwebtoken-8.5.1.tgz',
+372 verbose addRemoteTarball   '00e71e0b8df54c2121a1f26137df2280673bcc0d' ]
+373 info retry fetch attempt 1 at 09:44:04
+374 info attempt registry request try #1 at 09:44:04
+375 http fetch GET https://registry.npm.taobao.org/jsonwebtoken/download/jsonwebtoken-8.5.1.tgz
+376 http 200 https://registry.npm.taobao.org/xml2js
+377 verbose headers { server: 'Tengine',
+377 verbose headers   'content-type': 'application/json; charset=utf-8',
+377 verbose headers   'content-length': '20515',
+377 verbose headers   connection: 'keep-alive',
+377 verbose headers   date: 'Wed, 27 May 2020 01:42:53 GMT',
+377 verbose headers   'x-current-requests': '1',
+377 verbose headers   vary: 'accept, accept-encoding',
+377 verbose headers   etag: 'W/"98297549f6db350028e0733e456b6118"',
+377 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+377 verbose headers   'x-readtime': '18',
+377 verbose headers   via: 'cn462.l1, kunlun8.cn462, l2cn1851.l2, cache23.l2cn1851, izbp17djxs02ot6ppjbt2jz, cache23.l2cn1851[52,304-0,H], cache42.l2cn1851[53,0], kunlun8.cn462[0,200-0,H], kunlun3.cn462[1,0]',
+377 verbose headers   'x-swift-error': 'forward peer connect close',
+377 verbose headers   'content-encoding': 'gzip',
+377 verbose headers   'ali-swift-global-savetime': '1571657344',
+377 verbose headers   age: '110',
+377 verbose headers   'x-cache': 'HIT TCP_HIT dirn:10:233412950',
+377 verbose headers   'x-swift-savetime': 'Wed, 27 May 2020 01:42:53 GMT',
+377 verbose headers   'x-swift-cachetime': '120',
+377 verbose headers   'timing-allow-origin': '*',
+377 verbose headers   eagleid: 'b739529715905438834521573e' }
+378 silly get cb [ 200,
+378 silly get   { server: 'Tengine',
+378 silly get     'content-type': 'application/json; charset=utf-8',
+378 silly get     'content-length': '20515',
+378 silly get     connection: 'keep-alive',
+378 silly get     date: 'Wed, 27 May 2020 01:42:53 GMT',
+378 silly get     'x-current-requests': '1',
+378 silly get     vary: 'accept, accept-encoding',
+378 silly get     etag: 'W/"98297549f6db350028e0733e456b6118"',
+378 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+378 silly get     'x-readtime': '18',
+378 silly get     via: 'cn462.l1, kunlun8.cn462, l2cn1851.l2, cache23.l2cn1851, izbp17djxs02ot6ppjbt2jz, cache23.l2cn1851[52,304-0,H], cache42.l2cn1851[53,0], kunlun8.cn462[0,200-0,H], kunlun3.cn462[1,0]',
+378 silly get     'x-swift-error': 'forward peer connect close',
+378 silly get     'content-encoding': 'gzip',
+378 silly get     'ali-swift-global-savetime': '1571657344',
+378 silly get     age: '110',
+378 silly get     'x-cache': 'HIT TCP_HIT dirn:10:233412950',
+378 silly get     'x-swift-savetime': 'Wed, 27 May 2020 01:42:53 GMT',
+378 silly get     'x-swift-cachetime': '120',
+378 silly get     'timing-allow-origin': '*',
+378 silly get     eagleid: 'b739529715905438834521573e' } ]
+379 verbose get saving xml2js to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\xml2js\.cache.json
+380 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+381 http fetch 200 https://registry.npm.taobao.org/@cloudbase/signature-nodejs/download/@cloudbase/signature-nodejs-1.0.0-beta.0.tgz
+382 http 200 https://registry.npm.taobao.org/is-regex
+383 verbose headers { server: 'Tengine',
+383 verbose headers   'content-type': 'application/json; charset=utf-8',
+383 verbose headers   'content-length': '3327',
+383 verbose headers   connection: 'keep-alive',
+383 verbose headers   date: 'Wed, 27 May 2020 01:44:43 GMT',
+383 verbose headers   'x-current-requests': '1',
+383 verbose headers   vary: 'accept, accept-encoding',
+383 verbose headers   etag: 'W/"e39038ea9faa3943db00ba32f7b725f3"',
+383 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+383 verbose headers   'x-readtime': '13',
+383 verbose headers   via: 'cn462.l1, kunlun8.cn462, l2cn1851.l2, cache20.l2cn1851, npmtaobao22, cache20.l2cn1851[45,304-0,H], cache60.l2cn1851[47,0], kunlun8.cn462[54,200-0,H], kunlun2.cn462[57,0]',
+383 verbose headers   'content-encoding': 'gzip',
+383 verbose headers   'ali-swift-global-savetime': '1571657241',
+383 verbose headers   age: '0',
+383 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:11:63000381',
+383 verbose headers   'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+383 verbose headers   'x-swift-cachetime': '120',
+383 verbose headers   'timing-allow-origin': '*',
+383 verbose headers   eagleid: 'b739529615905438834777579e' }
+384 silly get cb [ 200,
+384 silly get   { server: 'Tengine',
+384 silly get     'content-type': 'application/json; charset=utf-8',
+384 silly get     'content-length': '3327',
+384 silly get     connection: 'keep-alive',
+384 silly get     date: 'Wed, 27 May 2020 01:44:43 GMT',
+384 silly get     'x-current-requests': '1',
+384 silly get     vary: 'accept, accept-encoding',
+384 silly get     etag: 'W/"e39038ea9faa3943db00ba32f7b725f3"',
+384 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+384 silly get     'x-readtime': '13',
+384 silly get     via: 'cn462.l1, kunlun8.cn462, l2cn1851.l2, cache20.l2cn1851, npmtaobao22, cache20.l2cn1851[45,304-0,H], cache60.l2cn1851[47,0], kunlun8.cn462[54,200-0,H], kunlun2.cn462[57,0]',
+384 silly get     'content-encoding': 'gzip',
+384 silly get     'ali-swift-global-savetime': '1571657241',
+384 silly get     age: '0',
+384 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:11:63000381',
+384 silly get     'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+384 silly get     'x-swift-cachetime': '120',
+384 silly get     'timing-allow-origin': '*',
+384 silly get     eagleid: 'b739529615905438834777579e' } ]
+385 verbose get saving is-regex to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\is-regex\.cache.json
+386 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+387 http 200 https://registry.npm.taobao.org/lodash.merge
+388 verbose headers { server: 'Tengine',
+388 verbose headers   'content-type': 'application/json; charset=utf-8',
+388 verbose headers   'content-length': '6999',
+388 verbose headers   connection: 'keep-alive',
+388 verbose headers   date: 'Wed, 27 May 2020 01:44:43 GMT',
+388 verbose headers   'x-current-requests': '1',
+388 verbose headers   vary: 'accept, accept-encoding',
+388 verbose headers   etag: 'W/"e7479fec4d252ce2dec91375509da45f"',
+388 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+388 verbose headers   'x-readtime': '14',
+388 verbose headers   via: 'cn462.l1, kunlun1.cn462, l2cn1851.l2, cache41.l2cn1851, izbp11dsagbzylz6yon5vtz, cache41.l2cn1851[49,304-0,H], cache36.l2cn1851[50,0], kunlun1.cn462[87,200-0,H], kunlun4.cn462[90,0]',
+388 verbose headers   'content-encoding': 'gzip',
+388 verbose headers   'ali-swift-global-savetime': '1587625613',
+388 verbose headers   age: '0',
+388 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:10:387440532',
+388 verbose headers   'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+388 verbose headers   'x-swift-cachetime': '120',
+388 verbose headers   'timing-allow-origin': '*',
+388 verbose headers   eagleid: 'b739529815905438834451679e' }
+389 silly get cb [ 200,
+389 silly get   { server: 'Tengine',
+389 silly get     'content-type': 'application/json; charset=utf-8',
+389 silly get     'content-length': '6999',
+389 silly get     connection: 'keep-alive',
+389 silly get     date: 'Wed, 27 May 2020 01:44:43 GMT',
+389 silly get     'x-current-requests': '1',
+389 silly get     vary: 'accept, accept-encoding',
+389 silly get     etag: 'W/"e7479fec4d252ce2dec91375509da45f"',
+389 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+389 silly get     'x-readtime': '14',
+389 silly get     via: 'cn462.l1, kunlun1.cn462, l2cn1851.l2, cache41.l2cn1851, izbp11dsagbzylz6yon5vtz, cache41.l2cn1851[49,304-0,H], cache36.l2cn1851[50,0], kunlun1.cn462[87,200-0,H], kunlun4.cn462[90,0]',
+389 silly get     'content-encoding': 'gzip',
+389 silly get     'ali-swift-global-savetime': '1587625613',
+389 silly get     age: '0',
+389 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:10:387440532',
+389 silly get     'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+389 silly get     'x-swift-cachetime': '120',
+389 silly get     'timing-allow-origin': '*',
+389 silly get     eagleid: 'b739529815905438834451679e' } ]
+390 verbose get saving lodash.merge to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\lodash.merge\.cache.json
+391 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+392 silly fetchAndShaCheck shasum 231d05f99cad01bc464f68239557c6a5b9a7e7a3
+393 http 200 https://registry.npm.taobao.org/@cloudbase%2fdatabase
+394 verbose headers { server: 'Tengine',
+394 verbose headers   'content-type': 'application/json; charset=utf-8',
+394 verbose headers   'content-length': '11134',
+394 verbose headers   connection: 'keep-alive',
+394 verbose headers   date: 'Wed, 27 May 2020 01:44:43 GMT',
+394 verbose headers   'x-current-requests': '1',
+394 verbose headers   vary: 'accept, accept-encoding',
+394 verbose headers   etag: 'W/"fc856cda5ded875cad3ed7df1a2b100d"',
+394 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+394 verbose headers   'x-readtime': '23',
+394 verbose headers   via: 'cn462.l1, kunlun10.cn462, l2cn1851.l2, cache54.l2cn1851, izbp11dsagbzylz6yon5vvz, cache54.l2cn1851[51,304-0,H], cache33.l2cn1851[56,0], kunlun10.cn462[65,200-0,H], kunlun9.cn462[152,0]',
+394 verbose headers   'content-encoding': 'gzip',
+394 verbose headers   'ali-swift-global-savetime': '1590479696',
+394 verbose headers   age: '0',
+394 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:8:325315620',
+394 verbose headers   'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+394 verbose headers   'x-swift-cachetime': '120',
+394 verbose headers   'timing-allow-origin': '*',
+394 verbose headers   eagleid: 'b739529d15905438833808970e' }
+395 silly get cb [ 200,
+395 silly get   { server: 'Tengine',
+395 silly get     'content-type': 'application/json; charset=utf-8',
+395 silly get     'content-length': '11134',
+395 silly get     connection: 'keep-alive',
+395 silly get     date: 'Wed, 27 May 2020 01:44:43 GMT',
+395 silly get     'x-current-requests': '1',
+395 silly get     vary: 'accept, accept-encoding',
+395 silly get     etag: 'W/"fc856cda5ded875cad3ed7df1a2b100d"',
+395 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+395 silly get     'x-readtime': '23',
+395 silly get     via: 'cn462.l1, kunlun10.cn462, l2cn1851.l2, cache54.l2cn1851, izbp11dsagbzylz6yon5vvz, cache54.l2cn1851[51,304-0,H], cache33.l2cn1851[56,0], kunlun10.cn462[65,200-0,H], kunlun9.cn462[152,0]',
+395 silly get     'content-encoding': 'gzip',
+395 silly get     'ali-swift-global-savetime': '1590479696',
+395 silly get     age: '0',
+395 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:8:325315620',
+395 silly get     'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+395 silly get     'x-swift-cachetime': '120',
+395 silly get     'timing-allow-origin': '*',
+395 silly get     eagleid: 'b739529d15905438833808970e' } ]
+396 verbose get saving @cloudbase/database to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\_40cloudbase_252fdatabase\.cache.json
+397 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+398 info retry will retry, error on last attempt: Error: unexpected end of file
+399 verbose addTmpTarball C:\Users\ZHONGQ~1\AppData\Local\Temp\npm-11612-76e58519\registry.npm.taobao.org\_40cloudbase\signature-nodejs\download\_40cloudbase\signature-nodejs-1.0.0-beta.0.tgz not in flight; adding
+400 verbose addTmpTarball already have metadata; skipping unpack for @cloudbase/signature-nodejs@1.0.0-beta.0
+401 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+402 silly resolveWithNewModule xml2js@0.4.23 checking installable status
+403 silly cache add args [ 'xml2js@^0.4.19', null ]
+404 verbose cache add spec xml2js@^0.4.19
+405 silly cache add parsed spec Result {
+405 silly cache add   raw: 'xml2js@^0.4.19',
+405 silly cache add   scope: null,
+405 silly cache add   escapedName: 'xml2js',
+405 silly cache add   name: 'xml2js',
+405 silly cache add   rawSpec: '^0.4.19',
+405 silly cache add   spec: '>=0.4.19 <0.5.0',
+405 silly cache add   type: 'range' }
+406 silly addNamed xml2js@>=0.4.19 <0.5.0
+407 verbose addNamed ">=0.4.19 <0.5.0" is a valid semver range for xml2js
+408 silly addNameRange { name: 'xml2js', range: '>=0.4.19 <0.5.0', hasData: false }
+409 silly mapToRegistry name xml2js
+410 silly mapToRegistry using default registry
+411 silly mapToRegistry registry https://registry.npm.taobao.org/
+412 silly mapToRegistry data Result {
+412 silly mapToRegistry   raw: 'xml2js',
+412 silly mapToRegistry   scope: null,
+412 silly mapToRegistry   escapedName: 'xml2js',
+412 silly mapToRegistry   name: 'xml2js',
+412 silly mapToRegistry   rawSpec: '',
+412 silly mapToRegistry   spec: 'latest',
+412 silly mapToRegistry   type: 'tag' }
+413 silly mapToRegistry uri https://registry.npm.taobao.org/xml2js
+414 verbose addNameRange registry:https://registry.npm.taobao.org/xml2js not in flight; fetching
+415 silly resolveWithNewModule is-regex@1.0.5 checking installable status
+416 silly cache add args [ 'is-regex@^1.0.4', null ]
+417 verbose cache add spec is-regex@^1.0.4
+418 silly cache add parsed spec Result {
+418 silly cache add   raw: 'is-regex@^1.0.4',
+418 silly cache add   scope: null,
+418 silly cache add   escapedName: 'is-regex',
+418 silly cache add   name: 'is-regex',
+418 silly cache add   rawSpec: '^1.0.4',
+418 silly cache add   spec: '>=1.0.4 <2.0.0',
+418 silly cache add   type: 'range' }
+419 silly addNamed is-regex@>=1.0.4 <2.0.0
+420 verbose addNamed ">=1.0.4 <2.0.0" is a valid semver range for is-regex
+421 silly addNameRange { name: 'is-regex', range: '>=1.0.4 <2.0.0', hasData: false }
+422 silly mapToRegistry name is-regex
+423 silly mapToRegistry using default registry
+424 silly mapToRegistry registry https://registry.npm.taobao.org/
+425 silly mapToRegistry data Result {
+425 silly mapToRegistry   raw: 'is-regex',
+425 silly mapToRegistry   scope: null,
+425 silly mapToRegistry   escapedName: 'is-regex',
+425 silly mapToRegistry   name: 'is-regex',
+425 silly mapToRegistry   rawSpec: '',
+425 silly mapToRegistry   spec: 'latest',
+425 silly mapToRegistry   type: 'tag' }
+426 silly mapToRegistry uri https://registry.npm.taobao.org/is-regex
+427 verbose addNameRange registry:https://registry.npm.taobao.org/is-regex not in flight; fetching
+428 verbose get https://registry.npm.taobao.org/xml2js not expired, no request
+429 silly addNameRange number 2 { name: 'xml2js', range: '>=0.4.19 <0.5.0', hasData: true }
+430 silly addNameRange versions [ 'xml2js',
+430 silly addNameRange   [ '0.4.23',
+430 silly addNameRange     '0.4.22',
+430 silly addNameRange     '0.4.21',
+430 silly addNameRange     '0.4.20',
+430 silly addNameRange     '0.4.19',
+430 silly addNameRange     '0.4.18',
+430 silly addNameRange     '0.4.17',
+430 silly addNameRange     '0.4.16',
+430 silly addNameRange     '0.4.15',
+430 silly addNameRange     '0.4.1-4.1',
+430 silly addNameRange     '0.4.13',
+430 silly addNameRange     '0.4.12',
+430 silly addNameRange     '0.4.11',
+430 silly addNameRange     '0.4.10',
+430 silly addNameRange     '0.4.9',
+430 silly addNameRange     '0.4.8',
+430 silly addNameRange     '0.4.7',
+430 silly addNameRange     '0.4.6',
+430 silly addNameRange     '0.4.5',
+430 silly addNameRange     '0.4.4',
+430 silly addNameRange     '0.4.3',
+430 silly addNameRange     '0.4.2',
+430 silly addNameRange     '0.4.1',
+430 silly addNameRange     '0.4.0',
+430 silly addNameRange     '0.2.8',
+430 silly addNameRange     '0.2.7',
+430 silly addNameRange     '0.2.6',
+430 silly addNameRange     '0.2.5',
+430 silly addNameRange     '0.2.4',
+430 silly addNameRange     '0.2.3',
+430 silly addNameRange     '0.2.2',
+430 silly addNameRange     '0.2.1',
+430 silly addNameRange     '0.2.0',
+430 silly addNameRange     '0.1.14',
+430 silly addNameRange     '0.1.13',
+430 silly addNameRange     '0.1.12',
+430 silly addNameRange     '0.1.11',
+430 silly addNameRange     '0.1.10',
+430 silly addNameRange     '0.1.9',
+430 silly addNameRange     '0.1.8',
+430 silly addNameRange     '0.1.7',
+430 silly addNameRange     '0.1.6',
+430 silly addNameRange     '0.1.2',
+430 silly addNameRange     '0.1.5',
+430 silly addNameRange     '0.1.4',
+430 silly addNameRange     '0.1.3',
+430 silly addNameRange     '0.1.1',
+430 silly addNameRange     '0.1.0' ] ]
+431 silly addNamed xml2js@0.4.23
+432 verbose addNamed "0.4.23" is a plain semver version for xml2js
+433 silly mapToRegistry name xml2js
+434 silly mapToRegistry using default registry
+435 silly mapToRegistry registry https://registry.npm.taobao.org/
+436 silly mapToRegistry data Result {
+436 silly mapToRegistry   raw: 'xml2js',
+436 silly mapToRegistry   scope: null,
+436 silly mapToRegistry   escapedName: 'xml2js',
+436 silly mapToRegistry   name: 'xml2js',
+436 silly mapToRegistry   rawSpec: '',
+436 silly mapToRegistry   spec: 'latest',
+436 silly mapToRegistry   type: 'tag' }
+437 silly mapToRegistry uri https://registry.npm.taobao.org/xml2js
+438 verbose addRemoteTarball https://registry.npm.taobao.org/xml2js/download/xml2js-0.4.23.tgz not in flight; adding
+439 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/xml2js/download/xml2js-0.4.23.tgz',
+439 verbose addRemoteTarball   'a0c69516752421eb2ac758ee4d4ccf58843eac66' ]
+440 verbose get https://registry.npm.taobao.org/is-regex not expired, no request
+441 silly addNameRange number 2 { name: 'is-regex', range: '>=1.0.4 <2.0.0', hasData: true }
+442 silly addNameRange versions [ 'is-regex',
+442 silly addNameRange   [ '1.0.5', '1.0.4', '1.0.3', '1.0.2', '1.0.1', '1.0.0', '0.0.0' ] ]
+443 silly addNamed is-regex@1.0.5
+444 verbose addNamed "1.0.5" is a plain semver version for is-regex
+445 silly resolveWithNewModule lodash.merge@4.6.2 checking installable status
+446 silly cache add args [ 'lodash.merge@^4.6.1', null ]
+447 verbose cache add spec lodash.merge@^4.6.1
+448 silly cache add parsed spec Result {
+448 silly cache add   raw: 'lodash.merge@^4.6.1',
+448 silly cache add   scope: null,
+448 silly cache add   escapedName: 'lodash.merge',
+448 silly cache add   name: 'lodash.merge',
+448 silly cache add   rawSpec: '^4.6.1',
+448 silly cache add   spec: '>=4.6.1 <5.0.0',
+448 silly cache add   type: 'range' }
+449 silly addNamed lodash.merge@>=4.6.1 <5.0.0
+450 verbose addNamed ">=4.6.1 <5.0.0" is a valid semver range for lodash.merge
+451 silly addNameRange { name: 'lodash.merge', range: '>=4.6.1 <5.0.0', hasData: false }
+452 silly mapToRegistry name lodash.merge
+453 silly mapToRegistry using default registry
+454 silly mapToRegistry registry https://registry.npm.taobao.org/
+455 silly mapToRegistry data Result {
+455 silly mapToRegistry   raw: 'lodash.merge',
+455 silly mapToRegistry   scope: null,
+455 silly mapToRegistry   escapedName: 'lodash.merge',
+455 silly mapToRegistry   name: 'lodash.merge',
+455 silly mapToRegistry   rawSpec: '',
+455 silly mapToRegistry   spec: 'latest',
+455 silly mapToRegistry   type: 'tag' }
+456 silly mapToRegistry uri https://registry.npm.taobao.org/lodash.merge
+457 verbose addNameRange registry:https://registry.npm.taobao.org/lodash.merge not in flight; fetching
+458 info retry fetch attempt 1 at 09:44:04
+459 info attempt registry request try #1 at 09:44:04
+460 http fetch GET https://registry.npm.taobao.org/xml2js/download/xml2js-0.4.23.tgz
+461 silly resolveWithNewModule @cloudbase/database@1.0.0-beta.2 checking installable status
+462 silly cache add args [ '@cloudbase/database@1.0.0-beta.2', null ]
+463 verbose cache add spec @cloudbase/database@1.0.0-beta.2
+464 silly cache add parsed spec Result {
+464 silly cache add   raw: '@cloudbase/database@1.0.0-beta.2',
+464 silly cache add   scope: '@cloudbase',
+464 silly cache add   escapedName: '@cloudbase%2fdatabase',
+464 silly cache add   name: '@cloudbase/database',
+464 silly cache add   rawSpec: '1.0.0-beta.2',
+464 silly cache add   spec: '1.0.0-beta.2',
+464 silly cache add   type: 'version' }
+465 silly addNamed @cloudbase/database@1.0.0-beta.2
+466 verbose addNamed "1.0.0-beta.2" is a plain semver version for @cloudbase/database
+467 silly mapToRegistry name @cloudbase/database
+468 silly mapToRegistry scope (from package name) @cloudbase
+469 verbose mapToRegistry no registry URL found in name for scope @cloudbase
+470 silly mapToRegistry using default registry
+471 silly mapToRegistry registry https://registry.npm.taobao.org/
+472 silly mapToRegistry data Result {
+472 silly mapToRegistry   raw: '@cloudbase/database',
+472 silly mapToRegistry   scope: '@cloudbase',
+472 silly mapToRegistry   escapedName: '@cloudbase%2fdatabase',
+472 silly mapToRegistry   name: '@cloudbase/database',
+472 silly mapToRegistry   rawSpec: '',
+472 silly mapToRegistry   spec: 'latest',
+472 silly mapToRegistry   type: 'tag' }
+473 silly mapToRegistry uri https://registry.npm.taobao.org/@cloudbase%2fdatabase
+474 verbose addNameVersion registry:https://registry.npm.taobao.org/@cloudbase%2fdatabase not in flight; fetching
+475 http fetch 200 https://registry.npm.taobao.org/jsonwebtoken/download/jsonwebtoken-8.5.1.tgz
+476 silly mapToRegistry name is-regex
+477 silly mapToRegistry using default registry
+478 silly mapToRegistry registry https://registry.npm.taobao.org/
+479 silly mapToRegistry data Result {
+479 silly mapToRegistry   raw: 'is-regex',
+479 silly mapToRegistry   scope: null,
+479 silly mapToRegistry   escapedName: 'is-regex',
+479 silly mapToRegistry   name: 'is-regex',
+479 silly mapToRegistry   rawSpec: '',
+479 silly mapToRegistry   spec: 'latest',
+479 silly mapToRegistry   type: 'tag' }
+480 silly mapToRegistry uri https://registry.npm.taobao.org/is-regex
+481 verbose addRemoteTarball https://registry.npm.taobao.org/is-regex/download/is-regex-1.0.5.tgz not in flight; adding
+482 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/is-regex/download/is-regex-1.0.5.tgz',
+482 verbose addRemoteTarball   '39d589a358bf18967f726967120b8fc1aed74eae' ]
+483 silly cache afterAdd @cloudbase/signature-nodejs@1.0.0-beta.0
+484 verbose afterAdd C:\Program Files\nodejs\node_cache\@cloudbase\signature-nodejs\1.0.0-beta.0\package\package.json not in flight; writing
+485 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+486 verbose get https://registry.npm.taobao.org/lodash.merge not expired, no request
+487 silly addNameRange number 2 { name: 'lodash.merge', range: '>=4.6.1 <5.0.0', hasData: true }
+488 silly addNameRange versions [ 'lodash.merge',
+488 silly addNameRange   [ '4.6.2',
+488 silly addNameRange     '4.6.1',
+488 silly addNameRange     '4.6.0',
+488 silly addNameRange     '4.5.1',
+488 silly addNameRange     '4.5.0',
+488 silly addNameRange     '4.4.0',
+488 silly addNameRange     '4.3.5',
+488 silly addNameRange     '4.3.4',
+488 silly addNameRange     '4.3.3',
+488 silly addNameRange     '4.3.2',
+488 silly addNameRange     '4.3.1',
+488 silly addNameRange     '4.3.0',
+488 silly addNameRange     '4.2.0',
+488 silly addNameRange     '4.1.1',
+488 silly addNameRange     '4.1.0',
+488 silly addNameRange     '4.0.4',
+488 silly addNameRange     '4.0.3',
+488 silly addNameRange     '4.0.2',
+488 silly addNameRange     '4.0.1',
+488 silly addNameRange     '4.0.0',
+488 silly addNameRange     '3.3.2',
+488 silly addNameRange     '3.3.1',
+488 silly addNameRange     '3.3.0',
+488 silly addNameRange     '3.2.1',
+488 silly addNameRange     '3.2.0',
+488 silly addNameRange     '3.1.0',
+488 silly addNameRange     '3.0.3',
+488 silly addNameRange     '3.0.2',
+488 silly addNameRange     '3.0.1',
+488 silly addNameRange     '3.0.0',
+488 silly addNameRange     '2.4.1',
+488 silly addNameRange     '2.4.0',
+488 silly addNameRange     '2.3.0',
+488 silly addNameRange     '2.2.1',
+488 silly addNameRange     '2.2.0',
+488 silly addNameRange     '2.1.0',
+488 silly addNameRange     '2.0.0' ] ]
+489 silly addNamed lodash.merge@4.6.2
+490 verbose addNamed "4.6.2" is a plain semver version for lodash.merge
+491 verbose get https://registry.npm.taobao.org/@cloudbase%2fdatabase not expired, no request
+492 silly mapToRegistry name lodash.merge
+493 silly mapToRegistry using default registry
+494 silly mapToRegistry registry https://registry.npm.taobao.org/
+495 silly mapToRegistry data Result {
+495 silly mapToRegistry   raw: 'lodash.merge',
+495 silly mapToRegistry   scope: null,
+495 silly mapToRegistry   escapedName: 'lodash.merge',
+495 silly mapToRegistry   name: 'lodash.merge',
+495 silly mapToRegistry   rawSpec: '',
+495 silly mapToRegistry   spec: 'latest',
+495 silly mapToRegistry   type: 'tag' }
+496 silly mapToRegistry uri https://registry.npm.taobao.org/lodash.merge
+497 verbose addRemoteTarball https://registry.npm.taobao.org/lodash.merge/download/lodash.merge-4.6.2.tgz not in flight; adding
+498 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/lodash.merge/download/lodash.merge-4.6.2.tgz',
+498 verbose addRemoteTarball   '558aa53b43b661e1925a0afdfa36a9a1085fe57a' ]
+499 info retry fetch attempt 1 at 09:44:05
+500 info attempt registry request try #1 at 09:44:05
+501 http fetch GET https://registry.npm.taobao.org/is-regex/download/is-regex-1.0.5.tgz
+502 silly mapToRegistry name @cloudbase/database
+503 silly mapToRegistry scope (from package name) @cloudbase
+504 verbose mapToRegistry no registry URL found in name for scope @cloudbase
+505 silly mapToRegistry using default registry
+506 silly mapToRegistry registry https://registry.npm.taobao.org/
+507 silly mapToRegistry data Result {
+507 silly mapToRegistry   raw: '@cloudbase/database',
+507 silly mapToRegistry   scope: '@cloudbase',
+507 silly mapToRegistry   escapedName: '@cloudbase%2fdatabase',
+507 silly mapToRegistry   name: '@cloudbase/database',
+507 silly mapToRegistry   rawSpec: '',
+507 silly mapToRegistry   spec: 'latest',
+507 silly mapToRegistry   type: 'tag' }
+508 silly mapToRegistry uri https://registry.npm.taobao.org/@cloudbase%2fdatabase
+509 verbose addRemoteTarball https://registry.npm.taobao.org/@cloudbase/database/download/@cloudbase/database-1.0.0-beta.2.tgz not in flight; adding
+510 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/@cloudbase/database/download/@cloudbase/database-1.0.0-beta.2.tgz',
+510 verbose addRemoteTarball   '858d160e18759464c9cfd2db54a0f84d627d4589' ]
+511 silly fetchAndShaCheck shasum 00e71e0b8df54c2121a1f26137df2280673bcc0d
+512 info retry fetch attempt 1 at 09:44:05
+513 info attempt registry request try #1 at 09:44:05
+514 http fetch GET https://registry.npm.taobao.org/lodash.merge/download/lodash.merge-4.6.2.tgz
+515 verbose afterAdd C:\Program Files\nodejs\node_cache\@cloudbase\signature-nodejs\1.0.0-beta.0\package\package.json written
+516 verbose addTmpTarball C:\Users\ZHONGQ~1\AppData\Local\Temp\npm-11612-76e58519\registry.npm.taobao.org\jsonwebtoken\download\jsonwebtoken-8.5.1.tgz not in flight; adding
+517 verbose addTmpTarball already have metadata; skipping unpack for jsonwebtoken@8.5.1
+518 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+519 info retry fetch attempt 1 at 09:44:05
+520 info attempt registry request try #1 at 09:44:05
+521 http fetch GET https://registry.npm.taobao.org/@cloudbase/database/download/@cloudbase/database-1.0.0-beta.2.tgz
+522 http 200 https://registry.npm.taobao.org/tcb-admin-node
+523 verbose headers { server: 'Tengine',
+523 verbose headers   'content-type': 'application/json; charset=utf-8',
+523 verbose headers   'content-length': '22706',
+523 verbose headers   connection: 'keep-alive',
+523 verbose headers   date: 'Wed, 27 May 2020 01:44:43 GMT',
+523 verbose headers   'x-current-requests': '1',
+523 verbose headers   vary: 'accept, accept-encoding',
+523 verbose headers   etag: 'W/"481a3e391c72edfd0e8e3ac17bc3bb10"',
+523 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+523 verbose headers   'x-readtime': '36',
+523 verbose headers   via: 'cn462.l1, kunlun6.cn462, l2cn1851.l2, cache14.l2cn1851, izbp11dsagbzylz6yon5vvz, cache14.l2cn1851[68,200-0,H], cache41.l2cn1851[70,0], kunlun6.cn462[86,200-0,M], kunlun3.cn462[93,0]',
+523 verbose headers   'content-encoding': 'gzip',
+523 verbose headers   'ali-swift-global-savetime': '1571724293',
+523 verbose headers   age: '0',
+523 verbose headers   'x-cache': 'MISS TCP_MISS dirn:0:376963961',
+523 verbose headers   'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+523 verbose headers   'x-swift-cachetime': '120',
+523 verbose headers   'timing-allow-origin': '*',
+523 verbose headers   eagleid: 'b739529715905438835221722e' }
+524 silly get cb [ 200,
+524 silly get   { server: 'Tengine',
+524 silly get     'content-type': 'application/json; charset=utf-8',
+524 silly get     'content-length': '22706',
+524 silly get     connection: 'keep-alive',
+524 silly get     date: 'Wed, 27 May 2020 01:44:43 GMT',
+524 silly get     'x-current-requests': '1',
+524 silly get     vary: 'accept, accept-encoding',
+524 silly get     etag: 'W/"481a3e391c72edfd0e8e3ac17bc3bb10"',
+524 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+524 silly get     'x-readtime': '36',
+524 silly get     via: 'cn462.l1, kunlun6.cn462, l2cn1851.l2, cache14.l2cn1851, izbp11dsagbzylz6yon5vvz, cache14.l2cn1851[68,200-0,H], cache41.l2cn1851[70,0], kunlun6.cn462[86,200-0,M], kunlun3.cn462[93,0]',
+524 silly get     'content-encoding': 'gzip',
+524 silly get     'ali-swift-global-savetime': '1571724293',
+524 silly get     age: '0',
+524 silly get     'x-cache': 'MISS TCP_MISS dirn:0:376963961',
+524 silly get     'x-swift-savetime': 'Wed, 27 May 2020 01:44:43 GMT',
+524 silly get     'x-swift-cachetime': '120',
+524 silly get     'timing-allow-origin': '*',
+524 silly get     eagleid: 'b739529715905438835221722e' } ]
+525 verbose get saving tcb-admin-node to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\tcb-admin-node\.cache.json
+526 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+527 silly cache afterAdd jsonwebtoken@8.5.1
+528 verbose afterAdd C:\Program Files\nodejs\node_cache\jsonwebtoken\8.5.1\package\package.json not in flight; writing
+529 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+530 verbose afterAdd C:\Program Files\nodejs\node_cache\jsonwebtoken\8.5.1\package\package.json written
+531 silly resolveWithNewModule tcb-admin-node@1.23.0 checking installable status
+532 silly cache add args [ 'tcb-admin-node@1.23.0', null ]
+533 verbose cache add spec tcb-admin-node@1.23.0
+534 silly cache add parsed spec Result {
+534 silly cache add   raw: 'tcb-admin-node@1.23.0',
+534 silly cache add   scope: null,
+534 silly cache add   escapedName: 'tcb-admin-node',
+534 silly cache add   name: 'tcb-admin-node',
+534 silly cache add   rawSpec: '1.23.0',
+534 silly cache add   spec: '1.23.0',
+534 silly cache add   type: 'version' }
+535 silly addNamed tcb-admin-node@1.23.0
+536 verbose addNamed "1.23.0" is a plain semver version for tcb-admin-node
+537 silly mapToRegistry name tcb-admin-node
+538 silly mapToRegistry using default registry
+539 silly mapToRegistry registry https://registry.npm.taobao.org/
+540 silly mapToRegistry data Result {
+540 silly mapToRegistry   raw: 'tcb-admin-node',
+540 silly mapToRegistry   scope: null,
+540 silly mapToRegistry   escapedName: 'tcb-admin-node',
+540 silly mapToRegistry   name: 'tcb-admin-node',
+540 silly mapToRegistry   rawSpec: '',
+540 silly mapToRegistry   spec: 'latest',
+540 silly mapToRegistry   type: 'tag' }
+541 silly mapToRegistry uri https://registry.npm.taobao.org/tcb-admin-node
+542 verbose addNameVersion registry:https://registry.npm.taobao.org/tcb-admin-node not in flight; fetching
+543 http fetch 200 https://registry.npm.taobao.org/xml2js/download/xml2js-0.4.23.tgz
+544 verbose get https://registry.npm.taobao.org/tcb-admin-node not expired, no request
+545 silly fetchAndShaCheck shasum a0c69516752421eb2ac758ee4d4ccf58843eac66
+546 silly mapToRegistry name tcb-admin-node
+547 silly mapToRegistry using default registry
+548 silly mapToRegistry registry https://registry.npm.taobao.org/
+549 silly mapToRegistry data Result {
+549 silly mapToRegistry   raw: 'tcb-admin-node',
+549 silly mapToRegistry   scope: null,
+549 silly mapToRegistry   escapedName: 'tcb-admin-node',
+549 silly mapToRegistry   name: 'tcb-admin-node',
+549 silly mapToRegistry   rawSpec: '',
+549 silly mapToRegistry   spec: 'latest',
+549 silly mapToRegistry   type: 'tag' }
+550 silly mapToRegistry uri https://registry.npm.taobao.org/tcb-admin-node
+551 verbose addRemoteTarball https://registry.npm.taobao.org/tcb-admin-node/download/tcb-admin-node-1.23.0.tgz not in flight; adding
+552 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/tcb-admin-node/download/tcb-admin-node-1.23.0.tgz',
+552 verbose addRemoteTarball   '5884a931de986db7b1e18c1d8738ef64a4593758' ]
+553 http fetch 200 https://registry.npm.taobao.org/is-regex/download/is-regex-1.0.5.tgz
+554 verbose addTmpTarball C:\Users\ZHONGQ~1\AppData\Local\Temp\npm-11612-76e58519\registry.npm.taobao.org\xml2js\download\xml2js-0.4.23.tgz not in flight; adding
+555 verbose addTmpTarball already have metadata; skipping unpack for xml2js@0.4.23
+556 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+557 info retry fetch attempt 1 at 09:44:05
+558 info attempt registry request try #1 at 09:44:05
+559 http fetch GET https://registry.npm.taobao.org/tcb-admin-node/download/tcb-admin-node-1.23.0.tgz
+560 silly fetchAndShaCheck shasum 39d589a358bf18967f726967120b8fc1aed74eae
+561 verbose addTmpTarball C:\Users\ZHONGQ~1\AppData\Local\Temp\npm-11612-76e58519\registry.npm.taobao.org\is-regex\download\is-regex-1.0.5.tgz not in flight; adding
+562 verbose addTmpTarball already have metadata; skipping unpack for is-regex@1.0.5
+563 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+564 http fetch 200 https://registry.npm.taobao.org/lodash.merge/download/lodash.merge-4.6.2.tgz
+565 silly fetchAndShaCheck shasum 558aa53b43b661e1925a0afdfa36a9a1085fe57a
+566 verbose addTmpTarball C:\Users\ZHONGQ~1\AppData\Local\Temp\npm-11612-76e58519\registry.npm.taobao.org\lodash.merge\download\lodash.merge-4.6.2.tgz not in flight; adding
+567 verbose addTmpTarball already have metadata; skipping unpack for lodash.merge@4.6.2
+568 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+569 silly cache afterAdd xml2js@0.4.23
+570 verbose afterAdd C:\Program Files\nodejs\node_cache\xml2js\0.4.23\package\package.json not in flight; writing
+571 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+572 silly cache afterAdd is-regex@1.0.5
+573 verbose afterAdd C:\Program Files\nodejs\node_cache\is-regex\1.0.5\package\package.json not in flight; writing
+574 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+575 verbose afterAdd C:\Program Files\nodejs\node_cache\xml2js\0.4.23\package\package.json written
+576 verbose afterAdd C:\Program Files\nodejs\node_cache\is-regex\1.0.5\package\package.json written
+577 silly cache afterAdd lodash.merge@4.6.2
+578 verbose afterAdd C:\Program Files\nodejs\node_cache\lodash.merge\4.6.2\package\package.json not in flight; writing
+579 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+580 verbose afterAdd C:\Program Files\nodejs\node_cache\lodash.merge\4.6.2\package\package.json written
+581 http fetch 200 https://registry.npm.taobao.org/@cloudbase/database/download/@cloudbase/database-1.0.0-beta.2.tgz
+582 http fetch 200 https://registry.npm.taobao.org/tcb-admin-node/download/tcb-admin-node-1.23.0.tgz
+583 silly fetchAndShaCheck shasum 5884a931de986db7b1e18c1d8738ef64a4593758
+584 verbose addTmpTarball C:\Users\ZHONGQ~1\AppData\Local\Temp\npm-11612-76e58519\registry.npm.taobao.org\tcb-admin-node\download\tcb-admin-node-1.23.0.tgz not in flight; adding
+585 verbose addTmpTarball already have metadata; skipping unpack for tcb-admin-node@1.23.0
+586 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+587 silly cache afterAdd tcb-admin-node@1.23.0
+588 verbose afterAdd C:\Program Files\nodejs\node_cache\tcb-admin-node\1.23.0\package\package.json not in flight; writing
+589 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+590 verbose afterAdd C:\Program Files\nodejs\node_cache\tcb-admin-node\1.23.0\package\package.json written
+591 silly fetchAndShaCheck shasum 858d160e18759464c9cfd2db54a0f84d627d4589
+592 verbose addTmpTarball C:\Users\ZHONGQ~1\AppData\Local\Temp\npm-11612-76e58519\registry.npm.taobao.org\_40cloudbase\database\download\_40cloudbase\database-1.0.0-beta.2.tgz not in flight; adding
+593 verbose addTmpTarball already have metadata; skipping unpack for @cloudbase/database@1.0.0-beta.2
+594 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+595 silly cache afterAdd @cloudbase/database@1.0.0-beta.2
+596 verbose afterAdd C:\Program Files\nodejs\node_cache\@cloudbase\database\1.0.0-beta.2\package\package.json not in flight; writing
+597 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+598 verbose afterAdd C:\Program Files\nodejs\node_cache\@cloudbase\database\1.0.0-beta.2\package\package.json written
+599 info attempt registry request try #2 at 09:44:14
+600 verbose etag W/"e09f6d950688a5f4ade5cb17928dfc78"
+601 http request GET https://registry.npm.taobao.org/request-promise
+602 info retry will retry, error on last attempt: Error: unexpected end of file
+603 verbose stack Error: kill ENOSYS
+603 verbose stack     at exports._errnoException (util.js:1018:11)
+603 verbose stack     at process.kill (internal/process.js:190:13)
+603 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+603 verbose stack     at emitNone (events.js:91:20)
+603 verbose stack     at process.emit (events.js:185:7)
+603 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+603 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+603 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+604 verbose cwd C:\Users\zhongqibang\WeChatProjects\miniprogram-5\cloudfunctions
+605 error Windows_NT 6.1.7601
+606 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "wx-server-sdk@latest"
+607 error node v6.10.2
+608 error npm  v3.10.10
+609 error code ENOSYS
+610 error errno ENOSYS
+611 error syscall kill
+612 error kill ENOSYS
+613 error If you need help, you may report this error at:
+613 error     <https://github.com/npm/npm/issues>
+614 verbose exit [ 1, true ]

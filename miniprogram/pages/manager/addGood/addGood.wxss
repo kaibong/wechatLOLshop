@@ -1,0 +1,131 @@
+/* miniprogram/pages/manager/addGood/addGood.wxss */
+.picker{
+  border: 2rpx solid black;
+  margin :15rpx;
+  padding: 15rpx;
+}
+.character{
+  flex-direction: row;
+  display: flex;
+  padding: 15rpx;
+}
+.character button{
+  width: 20%;
+  border: 1rpx solid black;
+  height: 45rpx;
+  font-size: 25rpx;
+  text-align: center;
+  line-height: 45rpx;
+  margin: 5rpx 80rpx;
+}
+.inputCharacter{
+  border: 1rpx solid black;
+  margin: 5rpx;
+}
+.addBig {
+  flex-direction: row;
+  display: flex;
+  padding: 15rpx;
+}
+
+.addBig .add {
+  width: 45rpx;
+  height: 45rpx;
+  margin: 8rpx 10rpx;
+}
+.addBig .add image{
+  width: 100%;
+  height: 100%;
+}
+
+.addBig .cancel {
+  width: 45rpx;
+  height: 45rpx;
+  margin: 8rpx 10rpx;
+}
+.addBig .cancel image{
+  width: 100%;
+  height: 100%;
+}
+.image_view{
+  display: flex;
+  flex-direction: column;
+}
+.image_view .image {
+  margin: 15rpx;
+  width: 150rpx;
+  height: 150rpx;
+  border: 1rpx solid black;
+  background-color: gainsboro;
+}
+.bigCharacters{
+  width: 100%;
+  height: 60rpx;
+  background-color: yellowgreen ;
+  border-radius: 25rpx;
+  display: flex;
+  flex-direction: row;
+}
+.bigCharacters text{
+  width: 300rpx;
+  height: 50rpx;
+  margin-left: 40rpx;
+  text-align: center;
+}
+.bigCharacters button{
+  width: 165rpx;
+  height: 40rpx;
+  background-color: white;
+  text-align: center;
+  font-size: 20rpx;
+  margin-top: 10rpx;
+  margin-right: 15rpx;
+}
+.bigCharacters image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 5rpx;
+  margin-right: 40rpx;
+  margin-top: 10rpx;
+}
+.addCharacterWay{
+  margin: 5rpx;
+  display: flex;
+  flex-direction: column;
+}
+.addCharacterWay image{
+  width: 45rpx;
+  height: 45rpx;
+  margin-left: 45rpx;
+}
+.addCharacterWay .inputWay{
+  font-size: 30rpx;
+  line-height: -5rpx;
+  margin-left: 45rpx;
+}
+.addCharacterWay .loopWay{
+  display: flex;
+  margin-left: 45rpx;
+  flex-direction: column;
+}
+
+.addCharacterWay .inputWays{
+  display: flex;
+  flex-direction: row;
+}
+.addCharacterWay .inputWays .inputWay{
+  width: 600rpx;
+}
+.addCharacterWay .loopWay .oneWay{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.addCharacterWay .loopWay .oneWay image{
+  width: 35rpx;
+  height: 35rpx;
+}
+.addCharacterWay .loopWay .oneWay text{
+  width: 400rpx;
+  font-weight: 25rpx;
+}
